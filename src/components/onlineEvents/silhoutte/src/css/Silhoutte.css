@@ -1,0 +1,56 @@
+.silhoutte-image
+{
+    background:black;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+}
+.silhoutte-image-child
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 18vh;
+    width:30vw;
+    height:auto;
+}
+.silhoutte-online-events-rulebook
+{
+    text-transform: uppercase;
+    display: inline;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 21px;
+    cursor:pointer;
+}
+.silhoutte-online-events-rulebook:hover
+{
+    background-color:white;
+    color:black;
+}
+@media only screen and (min-width:800px)
+{
+    .silhoutte-online-events-rulebook
+    {
+        position: absolute;
+        right: 16%;
+        top: 50%;
+    }
+}
+@media only screen and (max-width:800px)
+{
+    .silhoutte-image-child
+    {
+        width:80vw;
+        height:auto;
+    }
+    .silhoutte-online-events-rulebook
+    {
+        position:absolute;
+        right:29%;
+        bottom:5%;
+    }
+    .silhoutte-image >div
+    {
+        position:relative;
+    }
+}

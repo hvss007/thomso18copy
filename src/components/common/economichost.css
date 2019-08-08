@@ -1,0 +1,29 @@
+.economichost-parent{
+    /* background-image: url("./economical.png"); */
+    /* background-position: center; */
+    /* background-size: 100%; */
+    height: 4vh;
+    width: 14vw;
+    position: fixed;
+    bottom: 20px;
+    right: 67px;
+    z-index: 100;
+    /* background-repeat: no-repeat; */
+}
+.eco-logo-image
+{
+    height:22px;
+}
+@media only screen and (max-width:768px){
+    .economichost-parent{
+        height: 4vh;
+        width: 28vw;
+        position: fixed;
+        bottom: 4px;
+        right: 41px;
+    }
+    .eco-logo-image
+    {
+        height:14px;
+    }
+}

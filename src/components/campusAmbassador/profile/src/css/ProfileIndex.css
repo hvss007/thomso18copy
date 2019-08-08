@@ -1,0 +1,121 @@
+.profile-data-main
+{
+    background-image: url(/static/media/dashboard.02df9c66.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 75.83vw;
+    margin-left: auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Montserrat;
+}
+.profile-main-parent
+{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding:25px;
+    border-radius:15px;
+    -webkit-box-shadow: -5px -4px 22px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px -4px 22px -1px rgba(0,0,0,0.75);
+    box-shadow: -5px -4px 22px -1px rgba(0,0,0,0.75);
+    width:70%;
+    min-height:50%;
+    background-color:#ffffffd1;
+}
+.profile-college-main-div
+{
+    display:flex;
+}
+.my-insights-profile-ca
+{
+    margin-left:16px;
+}
+.profile-college-child2
+{
+}
+.profile-image-facebook
+{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+}
+.user-names-profiles
+{
+    margin:2px;
+    word-wrap:break-word;
+}
+.user-profile-college
+{
+    margin:1px;
+}
+.user-profile-ca-id
+{
+    margin:1px;
+}
+.user-name-profile
+{
+    text-transform:uppercase;
+}
+.profiles-scores-chart
+{
+    display:flex;
+    justify-content:space-between;
+}
+.profiles-scores-chart >div
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+.profiles-scores-chart-1
+{
+    width:80%;
+}
+.profiles-scores-chart-2
+{
+    width:20%;
+}
+.profiles-scores-chart-1>div
+{
+    margin-left:16px;
+}
+.scores-updation-notice
+{
+    position:absolute;
+    bottom:0;
+    margin:0px;
+    margin-bottom:2px;
+}
+.profile-image-facebook-div
+{
+    margin-right:20px;
+}
+@media only screen and (max-width: 768px)
+{
+    .profile-data-main
+    {
+        width: calc(100% - 56px);
+    }
+    .profile-college-child2
+    {
+    }
+    .profile-college-main-div
+    {
+        flex-direction:column;
+    }
+    .profile-college-child2
+    {
+        width:100%;
+    }
+}
+@media (min-width: 1920px) and (max-width: 2560px){
+    .profile-main-parent
+    {
+        min-height:35%;
+    }
+}

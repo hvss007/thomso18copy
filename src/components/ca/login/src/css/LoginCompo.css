@@ -1,0 +1,130 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+
+.login-div2{
+  height: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.login-div3{
+  height:auto;
+  width: 51px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+}
+.login-div3 img{
+  height: auto;
+  width:51px;
+}
+
+.login-div4{
+  margin-left: 30px;
+  height: 51px;
+  width:84%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  font-family: Montserrat;
+}
+.login-para{
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 0px;
+  color:black;
+  text-align: left;
+}
+@media screen and (max-width:1068px){
+
+  .login-div2{
+    height: 110px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+     font-size: 8px;
+    font-weight: bold;
+    vertical-align: middle;
+  }
+  .login-div3{
+    height:auto;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+  .login-div3 img{
+    height: auto;
+    width:40px;
+  }
+  .login-div4{
+    margin-left: 30px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    font-family: Montserrat;
+  }
+  .login-div4 p{
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2560px){
+  .login-div2{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    font-size: 22px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-bottom: 4%;
+  }
+  .login-div3{
+    height:51px;
+    width: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+  }
+  .login-div3 img{
+    height: auto;
+    width:65px;
+    padding-top:17px;
+
+  }
+
+  .login-div4{
+    margin-left: 30px;
+    height: 51px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    font-family: Montserrat;
+    font-weight: normal;
+  }
+  .login-div4 p{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    vertical-align: middle;
+    margin: 0px;
+  }
+
+}

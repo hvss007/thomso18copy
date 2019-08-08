@@ -1,0 +1,136 @@
+.certificate-contact-parent{
+    width: 76%;
+    height: 80%;
+    min-height: 100vh;
+    margin-left: auto;
+    font-family: Montserrat;
+    background-image: url("../src/img/trianglify.png");
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}   
+.certificate-tiktok-parent{
+    padding-top: 40px;  
+}
+.certificate-tiktok{
+    background-image: url("./tiktok.png");
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.certificate-submit-msg{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: green;
+
+}
+.form-first-child{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+}
+#inputusername{
+    font-size: 14px;
+    outline: 0;
+    border-width:1px;
+    border-color:black;
+    font-family: Montserrat;
+    background: none;
+    color: black;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+}
+#inputusername::placeholder{
+     color: black;
+     text-align: center;
+}
+#inputusername:focus::-webkit-input-placeholder { color:transparent; }
+.form-email{
+    display: flex;
+    justify-content: space-around;
+}
+.certificate-button{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.certificate-button button{
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 2px;
+    background:black;
+    border:1px solid black;
+    color :white;
+    font-weight: 600;
+}
+.certificate-link a{
+    color: red;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+}
+.certificate-errors{
+    color: red;
+    font-size: 14px;
+}
+.certificate-msg{
+    color: green;
+    font-size: 14px;
+}
+.certificate-errors-msg{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 10px;
+}
+.certificate-download-container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.certificate-download-first{
+    width: fit-content;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.certificate-download-first button {
+    padding: 5px;
+    margin: 5px 20px;
+    font-family: Montserrat;
+    background: black;
+    border: 1px solid black;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.certificate-notelli{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+}
+.certificate-link-p{
+    font-family: Montserrat;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    /* padding: 10px 20px; */
+    line-height: 2.2em;
+}

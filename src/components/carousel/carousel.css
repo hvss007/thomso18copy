@@ -1,0 +1,246 @@
+.carousel-parent{
+  width: 95vw;
+  overflow: hidden;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-card-link {
+  height: 21rem;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Montserrat;
+  font-weight: 600;
+  overflow-wrap: break-word;
+}
+.my-card-link p{
+  text-align: center;
+  margin-top: 50%;
+  padding: 0px;
+}
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:calc(50% - 11.5rem);
+    left: 8.5%;
+  } 
+  .card-carousel .my-card {
+    height: 21rem;
+    width: 25rem;
+    position: relative;
+    z-index: 1;
+    -webkit-transform: scale(0.6) translateY(-2rem);
+    transform: scale(0.6) translateY(-2rem);
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    background: linear-gradient(to top, #2e5266, #6e8898);
+    transition: 1s;
+  }
+  .card-carousel .my-card:nth-child(3){
+    background-image: url("/img/main/whythomso/Farhaan.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+  }
+  .card-carousel .my-card:nth-child(1){
+    background-image: url("/img/main/whythomso/sunidhichauhan.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+  }
+  .card-carousel .my-card:nth-child(2){
+    background-image: url("/img/main/whythomso/shaaan.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+  }
+  .card-carousel .my-card:nth-child(4){
+    background-image: url("/img/main/whythomso/Nucleya.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+  }
+  .card-carousel .my-card:nth-child(5){
+    background-image: url("/img/main/whythomso/sonuu.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+  }
+  /* .card-carousel .my-card:after {
+    content: 'Farhaan Akhtar';
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    border-radius: 100%;
+    bottom: -5rem;
+    -webkit-filter: blur(4px);
+    filter: grayscale(1);
+  } */
+  
+  .card-carousel .my-card.active {
+    z-index: 3;
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+    transform: scale(1) translateY(0) translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+  }
+  
+  .card-carousel .my-card.prev, .card-carousel .my-card.next {
+    z-index: 2;
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+    opacity: 1;
+    filter: grayscale(1);
+    pointer-events: auto;
+    transition: 1s;
+  }
+  .card-carousel .my-card:nth-child(0):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(1):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(2):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(3):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(4):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  .card-carousel .my-card:nth-child(5):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  .card-carousel > .my-card > .my-card-child{
+      opacity: 0;
+      transition: opacity 0.6s ;
+  }
+  .card-carousel .my-card.active .my-card-child{
+    opacity: 1;
+  }
+.tushar{
+  cursor: pointer;
+}
+.leftarrow{
+  z-index: 100;
+  position: absolute;
+  left: 25%;
+  top: calc(38% - 17.5px);
+  width: fit-content;
+  cursor: pointer;
+}
+.rightarrow{
+  z-index: 100;
+  position: absolute;
+  right: 25%;
+  top: calc(38% - 17.5px);
+  width: fit-content;
+  cursor: pointer;
+}
+.my-card-child{
+  position: absolute;
+  bottom: -150px;
+}
+.my-card-child p{
+  margin: 0px;
+  margin-top: 0px;
+  position: relative;
+  white-space: nowrap;
+  width: 115%;
+  top: -61px;
+  left: -105px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  color:rgb(20,20,20);
+  font-family: Poppins;
+}
+.card-carousel .my-card:nth-child(1) .my-card-child p{
+  left: -181px;
+}
+.card-carousel .my-card:nth-child(3) .my-card-child p{
+  left: -155px;
+}
+
+.card-carousel .my-card:nth-child(4) .my-card-child p{
+  left: -190px;
+}
+
+.card-carousel .my-card:nth-child(5) .my-card-child p{
+  left:-90px;
+}
+.my-card-child svg{
+  position: absolute;
+  left: -63px;
+  top:-57px;
+  width:24.5rem;
+	height:120px;
+}
+.my-card a{
+  text-decoration: none;
+}
+@media only screen and (max-width:1920px){
+  .leftarrow{
+    left: 15%;
+  }
+  .rightarrow{
+    right: 15%;
+  }
+}

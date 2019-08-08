@@ -1,0 +1,67 @@
+.beta-home-contactMain
+{
+    justify-content: center;
+    font-family:Montserrat;
+    display:flex;
+    color:white;
+    font-size:12px;
+    margin-top:150px;
+}
+.beta-home-contact-table {
+    border-collapse: collapse;
+}
+.beta-home-contact-table > tr
+{
+    text-align: left;
+}
+.beta-home-contactUs , .beta-home-address
+{
+    margin:20px;
+}
+@media only screen and (max-width: 768px) {
+    .beta-home-contactMain
+    {
+        flex-direction:column;
+        font-size:8px;
+        justify-content:left;
+        margin-top:22vh;
+    }
+    .beta-home-contact-table > tr
+    {
+        padding:2px;
+        text-align: left;
+        margin:10px;
+    }
+    .beta-home-top{
+        font-size:10px;
+    }
+    .beta-home-contactUs  
+    {
+        margin:15px;
+    }
+}
+@media (min-width: 1920px) and (max-width: 2560px){
+
+    .beta-home-contactUs , .beta-home-address
+    {
+        font-size:19px;
+    }
+    .beta-home-contactUs
+    {
+        margin-left:72px;
+    }
+    .beta-home-contactMain
+    {
+      font-weight:lighter;
+      margin-top:28vh;
+      font-size:26px;
+    }
+    .beta-home-top, .beta-home-address
+    {
+    font-weight:400;
+
+    }
+    .email > h1{
+        font-weight:400;
+    }
+}

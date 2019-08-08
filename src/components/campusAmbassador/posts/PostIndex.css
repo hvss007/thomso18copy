@@ -1,0 +1,24 @@
+.campusAmb-post-index-main
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url("../leaderboard/img/dashboard.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+    width: 75.83vw;
+    margin-left: auto;
+    color:white;
+    font-family:Montserrat;
+    font-size:45px;
+}
+@media only screen and (max-width:768px)
+{
+    .campusAmb-post-index-main
+    {
+        width: calc(100% - 56px);
+    }
+}

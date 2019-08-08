@@ -1,0 +1,274 @@
+.pronites-js-transitions-disabled * {
+  transition: none !important;
+}
+.pronites-carousel-parentdiv{
+	height: 100vh;
+	background: url('../../home/src/img/about\ us\ new.jpg');
+}
+.pronites-carousel {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  perspective: 50vw;
+  perspective-origin: 50% 50%;
+}
+.pronites-carousel__control {
+  position: absolute;
+  height: 160px;
+  width: 40px;
+  background: #fff;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+}
+.pronites-carousel__control a {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 75%;
+  box-sizing: border-box;
+}
+.pronites-carousel__control a:hover:before {
+  background-color: rgba(0,0,0,0.4);
+}
+.pronites-carousel__control a.active:before,
+.pronites-carousel__control a.active:hover:before {
+  background-color: rgba(0,0,0,0.6);
+}
+.pronites-carousel__control a:first-child {
+  margin-top: 15px;
+}
+.pronites-carousel__control a:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  padding-top: 25%;
+  width: 25%;
+  background: rgba(0,0,0,0.2);
+  content: '';
+  display: block;
+  margin-top: -12.5%;
+}
+.pronites-carousel__stage {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  margin: auto;
+  transform-style: preserve-3d;
+  transform: translateZ(calc(-50vh + 20px));
+}
+.pronites-spinner {
+  position: absolute;
+  width: calc(50vw - (20px));
+  height: calc(100vh - 40px);
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  margin: auto;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  backface-visibility: hidden;
+  transform-origin: 50% 50%;
+  transform: rotateX(0);
+}
+.pronites-js-spin-fwd .pronites-spinner {
+  transform: rotateX(-90deg);
+}
+.pronites-js-spin-bwd .pronites-spinner {
+  transform: rotateX(90deg);
+}
+.pronites-js-spin-fwd .pronites-spinner--right {
+  transform: rotateX(90deg);
+}
+.pronites-js-spin-bwd .pronites-spinner--right {
+  transform: rotateX(-90deg);
+}
+.pronites-spinner--right {
+  right: 0;
+  left: auto;
+}
+.pronites-spinner__face {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.pronites-spinner__face.pronites-js-next {
+  display: block;
+  transform: rotateX(90deg) translateZ(calc(50vh - 20px));
+}
+.pronites-spinner--right .pronites-spinner__face.pronites-js-next {
+  transform: rotateX(270deg) translateZ(calc(50vh - 20px));
+}
+.pronites-js-spin-bwd .pronites-spinner__face.pronites-js-next {
+  transform: rotateX(-90deg) translateZ(calc(50vh - 20px));
+}
+.pronites-js-spin-bwd .pronites-spinner--right .pronites-spinner__face.pronites-js-next {
+  transform: rotateX(-270deg) translateZ(calc(50vh - 20px));
+}
+.pronites-js-active {
+  display: block;
+  transform: translateZ(calc(50vh - 20px));
+}
+.pronites-content {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  left: 0;
+}
+.pronites-spinner--right .pronites-content {
+  left: -100%;
+}
+.pronites-content__left,
+.pronites-content__right {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+}
+.pronites-content__right {
+  right: 0;
+  left: auto;
+}
+.pronites-content__left {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pronites-content__left:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.1);
+}
+.pronites-content__left h1 {
+  position: absolute;
+  top: 50%;
+  margin-top: -3vw;
+  text-align: center;
+  font-family: oswald;
+  font-size: 5vw;
+  height: 10vw;
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  letter-spacing: 0.15em;
+  line-height: 0.6;
+}
+.pronites-content__left span {
+  font-size: 1vw;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  opacity: 0.9;
+  font-family: Merriweather;
+}
+.pronites-content__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pronites-content__right .pronites-content__main {
+  position: absolute;
+  font-family: Merriweather, serif;
+  text-align: left;
+  color: #fff;
+  font-size: 1.3vw;
+  padding: 0 8vw;
+  line-height: 1.65;
+  font-weight: 300;
+  margin: 0;
+  opacity: 0.8;
+}
+.pronites-content__right .pronites-content__main p:last-child {
+  letter-spacing: 0.15em;
+  font-size: 0.85em;
+  
+}
+.pronites-content__right .pronites-content__index {
+  font-size: 30vh;
+  position: absolute;
+  right: -1vh;
+  top: 35vh;
+  opacity: 0.04;
+  font-family: oswald;
+  color: #fff;
+}
+[data-type="kenny"] .pronites-content__left {
+  background-image: url('./img/kenny.jpg');
+  background-position: center;
+  background-size: contain;
+}
+.pronites-spinner--right [data-type="kenny"] .pronites-content__left {
+  background-image: none;
+}
+[data-type="localtrain"] .pronites-content__left {
+  background-image: url("./img/localtrain.jpg");
+  background-position: center;
+  background-size: contain;
+}
+.pronites-spinner--right [data-type="localtrain"] .pronites-content__left {
+  background-image: none;
+}
+[data-type="amit"] .pronites-content__left {
+  background-image: url("./img/Amit.jpg");
+  background-position: center;
+  background-size: contain;
+}
+.pronites-spinner--right [data-type="amit"] .pronites-content__left {
+  background-image: none;
+}
+[data-type="wolfpack"] .pronites-content__left {
+  background-image: url("./img/wolfpack.jpg");
+  background-position: center;
+  background-size: contain;
+}
+.pronites-spinner--right [data-type="wolfpack"] .pronites-content__left {
+  background-image: none;
+}
+
+
+@media only screen and (max-width:768px){
+	.pronites-carousel {
+		position: relative;
+		height: 50vh;
+		top:25vh;
+		
+    }
+
+    .pronites-content__right .pronites-content__main {
+      position: absolute;
+      font-family: Merriweather, serif;
+      text-align: left;
+      color: #fff;
+      font-size: 9px;
+      padding: 0 8vw;
+      line-height: 1.65;
+      font-weight: 300;
+      margin: 0;
+      opacity: 0.8;
+  }
+    
+    [data-type="localtrain"] .pronites-content__left {
+      /* background-image: url('./img/localtrainmobile.jpg'); */
+      background-position: center;
+      background-size: contain;
+    }
+    [data-type="amit"] .pronites-content__left {
+      /* background-image: url("./img/Amit.jpg"); */
+      background-position: center;
+      background-size: contain;
+    }
+
+
+}

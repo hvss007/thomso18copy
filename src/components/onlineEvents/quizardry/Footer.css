@@ -1,0 +1,270 @@
+
+.quizardy-footer{
+      display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: absolute;
+    font-size: 14px;
+    top: 59vh;
+    width: 100%;
+    /* padding-left: 10%; */
+    padding-bottom: 1%;
+    font-family: Montserrat;
+
+}
+.quizardy-footer-logo{
+    width: 33%;
+    position: relative;
+}
+.quizardy-footer-address{
+    width:33%;
+    text-align: center;
+}
+
+.quizardy-footer-icons
+{
+    width: 100%;
+
+    position: absolute;
+
+    padding: 0px;
+    top: 0px;
+    color: white;
+    text-align: center;
+}
+.quizardy-footer-iconsImage
+{
+    width:40px;
+    height:40px;
+}
+.quizardy-footer-mainIcons
+{
+    margin-top:20px;
+    display:inline-flex;
+}
+.quizardy-footer-follow
+{
+
+    width: 100%;
+    margin: 0px;
+
+}
+
+.quizardy-footer-fbdiv, .quizardy-footer-ytdiv , .quizardy-footer-instadiv , .quizardy-footer-linkediv
+{
+    width:40px;
+    height:40px;
+    margin-left:10px;
+    border-radius:50%;
+    transition: 0.5s;
+}
+.common-cursor{
+    cursor : default;
+}
+
+.quizardy-footer-fbdiv:hover,.quizardy-footer-ytdiv:hover,.quizardy-footer-instadiv:hover,.quizardy-footer-linkediv:hover
+{
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Safari 3-8 */
+    transform: rotate(360deg);
+}
+.quizardy-footer-fbdiv:hover
+{
+    background:#3b5998;
+}
+.quizardy-footer-ytdiv:hover
+{
+    background:#ff0000;
+}
+.quizardy-footer-instadiv:hover
+{
+    background:#c32aa3;
+}
+.quizardy-footer-linkediv:hover
+{
+    background:#007bb5;
+}
+
+.quizardy-footer-contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    align-items: center;
+    width: 33%;
+    color:white;
+}
+
+.quizardy-footer-contact-info{
+    display: flex;
+    flex-direction: row;
+}
+.quizardy-footer-contact1{
+    padding-left: 10%;
+}
+.quizardy-footer-contact2{
+    padding-left: 10%;
+}
+@media (max-width: 1068px){
+    .quizardy-parent-footer
+    {
+        display:flex;
+        flex-direction:column;
+    }
+    .quizardy-footer{
+        font-size: 11px;
+        flex-direction: row;
+        justify-content:space-around;
+        top: 57vh;
+    }
+    .quizardy-footer-iconsImage
+    {
+        width:20px;
+        height:20px;
+    }
+    .quizardy-footer-logo{
+        width: 100%;
+        position: relative;
+        height: 50px;
+        top:70vh;
+        text-align: center;
+    }
+    .quizardy-footer-contact{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: left;
+        align-items: flex-start;
+        width: auto;
+
+    }
+    .quizardy-footer-contact1{
+        padding-left: 0%;
+    }
+    .quizardy-footer-contact2{
+        padding-left: 8%;
+    }
+    .quizardy-footer-address{
+        color:white;
+        text-align: left;
+        width: inherit;
+    }
+    .quizardy-footer-fbdiv, .quizardy-footer-ytdiv , .quizardy-footer-instadiv , .quizardy-footer-linkediv
+    {
+        width:20px;
+        height:20px;
+        margin-left:14px;
+        border-radius:50%;
+        transition: 0.5s;
+    }
+    .quizardy-footer-icons
+    {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        top:0;
+        margin:auto;
+        float: none;
+        font-size: 11px;
+        text-align: center;
+    }
+    .quizardy-footer-icons p{
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+
+        font-size: 11px;
+        text-align: center;
+    }
+    .quizardy-footer-follow
+    {
+
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .quizardy-footer-mobile
+    {
+        display:none;
+    }
+    .quizardy-footer-desktop
+    {
+
+        display:flex;
+
+        justify-content:center;
+
+
+    }
+    .quizardy-footer-mainIcons
+    {
+      margin-top: 0px;
+      margin-left: auto;
+      width: 22%;
+      margin-right: auto;
+
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+    }
+    .quizardy-footer-fbdiv, .quizardy-footer-ytdiv , .quizardy-footer-instadiv , .quizardy-footer-linkediv{
+      margin-left: 0px;
+    }
+}
+@media (max-width: 768px){
+  .quizardy-footer-logo{
+      width: 100%;
+      position: relative;
+      height: 50px;
+      top:77vh;
+      text-align: center;
+  }
+
+  .quizardy-footer{
+      font-size: 11px;
+      flex-direction: row;
+      justify-content:space-around;
+      top: 60vh;
+  }
+
+   .quizardy-footer-mainIcons {
+    width: 39%;
+  }
+
+}
+
+@media (min-width: 1920px) and (max-width: 2560px){
+    .quizardy-footer-follow
+    {
+        text-align:center;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0px;
+
+    }
+    .quizardy-footer{
+      font-size: 20px;
+      top: 62vh;
+    }
+    .quizardy-footer-mainIcons {
+    margin-top: 30px;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    }
+    .quizardy-footer-logo{
+      width: 62%;
+    }
+
+}
+@media only screen and (min-width:1068px)
+{
+   .quizardy-footer-desktop
+   {
+      display:none;
+
+   }
+
+}

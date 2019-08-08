@@ -1,0 +1,82 @@
+.superadmin-form-input{
+    display: flex;
+    margin: 20px 0px;
+}
+.superadmin-buttons{
+    display: flex;
+    margin: 20px 0px;
+    width: 30%;
+    justify-content:space-evenly;
+}
+.superadmin-form-input div:nth-child(1){
+    width: 20%;
+}
+
+.superadmin-form-input div:nth-child(2){
+    width: 30%;
+}
+
+.superadmin-form-input div:nth-child(3){
+    width: 10%;
+}
+
+.superadmin-form-input div:nth-child(1) label{
+    font-size: 14px;
+    font-family: Montserrat;
+    text-transform: capitalize;
+}
+
+.superadmin-form-input div:nth-child(2) input{
+    font-family: Montserrat;
+    font-size: 14px;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #444;
+    color: black;
+    padding: 7px 12px;
+}
+.superadmin-form-input div:nth-child(2) select{
+    font-family: Montserrat;
+    font-size: 14px;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #444;
+    color: black;
+    padding: 7px 12px;
+}
+.superadmin-form-input div:nth-child(3) button{
+    width:100%;
+    font-family: Montserrat;
+    font-size: 14px;
+    background: #444;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #444;
+    padding: 7px 12px;
+}  
+.superadmin-buttons div button{
+    width:100%;
+    font-family: Montserrat;
+    font-size: 14px;
+    background: #444;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #444;
+    padding: 7px 12px;
+} 
+.superadmin-buttons-cancel-update button{
+    margin-top: 10px;
+}
+.color-red{
+    background: red !important;
+}
+.superadmin-parent{
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    background: grey;
+    width: 100%;
+    overflow: scroll;
+}

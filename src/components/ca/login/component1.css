@@ -1,0 +1,55 @@
+/*.div1{
+
+  height: 100vh;
+  width: auto;
+  background: url('CA portal website-04.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+
+}
+*/
+
+
+
+.div2{
+  height: 110px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+
+}
+.div3{
+  height:71px;
+  width: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+
+
+}
+.div3 img{
+  height: 71px;
+  width:71px;
+}
+
+.div4{
+  margin-left: 30px;
+  height: 71px;
+  width: 8009px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  font-family: Montserrat;
+
+
+}
+.div4 p{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+}

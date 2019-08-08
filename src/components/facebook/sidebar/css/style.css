@@ -1,0 +1,663 @@
+.sidenav {
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    height: 100%;
+    width: 20.13vw;
+    position: fixed;
+    z-index: 301;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    border-right: 1px solid rgba(174, 174, 174, 0.5);
+    box-shadow: 8px 0 3px -6px rgba(174, 174, 174, 0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding:20px 2vw 0 2vw;
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    color: #58595B;
+    overflow: hidden;
+}
+.facebook-connect-image
+{
+    height:100%;
+    width:100%;
+}
+.facebook-connect-image:hover
+{
+    cursor:pointer;
+}
+.facebook-connected
+{
+    display:none;
+}
+@media screen and (min-width:1400px){
+
+    .sidenav.collapseSide{
+        width: 100px;
+        min-width: 100px;
+    }
+    .sidenav.collapseSide .sideNavItem {
+        font-size: 0;
+        padding-left: 36px;
+    }
+    .sidenav.collapseSide > .campusAmb-sidebar-user > .text{
+        font-size: 14px;
+    }
+    .sidenav .sideNavItem {
+        padding: 5px 8px 5px 0px;
+        text-decoration: none;
+        font-size: 1vw;
+        font-weight: 600;
+        color: #46698b;
+        display: block;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem, .sidenav .sideNavItem:hover , .sidenav .sideNavItem:active, .sidenav .sideNavItem:focus{
+        background-color:#F1F2F1;
+        text-decoration: none;
+        text-transform: none;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-facebook > .campusAmb-sidebar-svg-logo svg .facebookpath{
+        fill: #4267B2;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-posts > .campusAmb-sidebar-svg-logo svg .postpath{
+        fill: red;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-leaderboard > .campusAmb-sidebar-svg-logo svg .leaderpath{
+        fill: green;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-ideas > .campusAmb-sidebar-svg-logo svg .bulbpath{
+        fill: yellow;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-certificate > .campusAmb-sidebar-svg-logo svg .certificatepath{
+        fill:orange;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-guide > .campusAmb-sidebar-svg-logo svg .guidepath{
+        fill: purple;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-contactus > .campusAmb-sidebar-svg-logo svg .contactpath{
+        fill: blue;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-logout > .campusAmb-sidebar-svg-logo svg .logoutpath{
+        fill: red;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-events > .campusAmb-sidebar-svg-logo svg .eventspath{
+        fill: #4C8AE5;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-home > .campusAmb-sidebar-svg-logo svg .homepath{
+        fill: #00e6e6;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-payment > .campusAmb-sidebar-svg-logo svg .paypath{
+        fill: gold;
+    }
+    .campusAmb-sidebar-likes-child{
+        display: flex;
+        flex-direction: row;
+    }
+    .campusAmb-sidebar-likes-grandchild{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .campusAmb-sidebar-svg-logo svg{
+        padding: 0 3px 0 3px;
+        height: auto;
+        width: 16px;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .bulbpath{
+        fill: yellow;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .leaderpath{
+        fill:green;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .guidepath{
+        fill:purple;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .certificatepath{
+        fill:orange;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .contactpath{
+        fill:blue;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .logoutpath{
+        fill:red;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .eventspath{
+        fill: #4C8AE5;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .postpath{
+        fill:red;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .paypath{
+        fill:gold;
+    }
+    .referral:hover .campusAmb-sidebar-svg-logo svg .referralpath{
+        cursor: pointer;
+        fill: red;
+    }
+    .campusAmb-sidebar-contents{
+        padding: 15px 0px;
+    }
+    .campusAmb-sidebar-hand{
+        position: absolute;
+        bottom: 5vh;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .campusAmb-sidebar-hand-child{
+        display: flex;
+        width: fit-content;
+        align-content: center;
+    }
+    .campusAmb-sidebar-hand .campusAmb-sidebar-svg-logo{
+        padding: 10px;
+    }
+    .campusAmb-sidebar-hand:hover .campusAmb-sidebar-svg-logo svg .handpath{
+        cursor: pointer;
+        fill: yellow;
+    }
+    .campusAmb-sidebar-user {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px 0 15px 0;
+        height: fit-content;
+    }
+    .campusAmb-sidebar-user > .image {
+        height: 40px;
+        width: auto;
+        border-radius: 50%;
+        padding: 0 5px 0 5px;
+    }
+    .campusAmb-sidebar-user > .campusAmb-sidebar-user-details{
+        display: flex;
+        flex-direction: column;
+        font-family: Montserrat;
+        transition: all 0.2s;
+    }
+    .campusAmb-sidebar-user > .campusAmb-sidebar-user-details > .text {
+        font-weight: bold;
+        padding: 0 5px 0 5px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+    }
+    .campusAmb-sidebar-user > .campusAmb-sidebar-user-details > .cname{
+        padding: 0 5px 0 5px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .campusAmb-sidebar-line{
+        height:1px;
+        background-color:#BEBEBE;
+        margin: 10px 0 10px 0;
+    }
+    .flex_row{
+        display: flex;
+        flex-direction: row;
+    }
+    .campusAmb-sidebar-svg-logo{
+        width: 15%;
+    }
+    .campusAmb-sidebar-navitem-name{
+        width: 85%;
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding: 0 5px;
+        font-weight: 600;
+    }
+    .campusAmb-sidebar-hand-days{
+        width: 85%;
+        margin-top: 10px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        padding: 5px;
+        font-weight: 600;
+        height: fit-content;
+        margin-top: 3px;
+    }
+    .campusAmb-sidebar-user > .campusAmb-sidebar-like-share-score{
+        display: flex;
+        flex-direction: column;
+    }
+    .campusAmb-sidebar-like-share-score-child{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px 0 10px 0;
+    }
+    .campusAmb-sidebar-likes-child{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    .campusAmb-sidebar-likes-number{
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        padding: 5px 0;
+    }
+    .campusAmb-sidebar-likes-shares-score-data{
+        padding-left: 8px;
+    }
+    .campusAmb-sidebar-score > .campusAmb-sidebar-likes-child > img{
+        padding-right: 8px;
+    }
+    .campusAmb-sidebar-shares > .campusAmb-sidebar-likes-child > img{
+        padding-right: 8px;
+    }
+    .campusAmb-sidebar-likes-child img{
+        height: 14px;
+        width: auto;
+        padding-top: 1px;
+    }
+    .sidenav .sideNavItem {
+        font-size: 1vw;
+        min-font-size: 12px;
+    }
+    .campusAmb-sidebar-updatenews{
+        font-size: 10px;
+        color: rgb(117, 154, 230);
+    }
+    .campusAmb-sidebar-likes > .campusAmb-sidebar-likes-child div{
+        padding: 0 5px;
+    }
+}
+
+
+@media screen and (max-width: 1400px){
+    .sidenav.collapseSide{
+        width: 100px;
+        min-width: 100px;
+    }
+    .sidenav.collapseSide .sideNavItem {
+        font-size: 0;
+        padding-left: 36px;
+    }
+    .sidenav.collapseSide > .campusAmb-sidebar-user > .text{
+        font-size: 12px;
+    }
+    .sidenav .sideNavItem {
+        padding: 5px 8px 5px 0px;
+        text-decoration: none;
+        font-size: 1vw;
+        font-weight: 600;
+        color: #46698b;
+        display: block;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem, .sidenav .sideNavItem:hover , .sidenav .sideNavItem:active, .sidenav .sideNavItem:focus{
+        background-color:#F1F2F1;
+        text-decoration: none;
+        text-transform: none;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-posts > .campusAmb-sidebar-svg-logo svg .postpath{
+        fill: red;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-leaderboard > .campusAmb-sidebar-svg-logo svg .leaderpath{
+        fill: green;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-ideas > .campusAmb-sidebar-svg-logo svg .bulbpath{
+        fill: yellow;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-certificate > .campusAmb-sidebar-svg-logo svg .certificatepath{
+        fill:orange;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-guide > .campusAmb-sidebar-svg-logo svg .guidepath{
+        fill: purple;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-contactus > .campusAmb-sidebar-svg-logo svg .contactpath{
+        fill: blue;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-logout > .campusAmb-sidebar-svg-logo svg .logoutpath{
+        fill: red;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-events > .campusAmb-sidebar-svg-logo svg .eventspath{
+        fill: #4C8AE5;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-profile > .campusAmb-sidebar-svg-logo svg .profilepath{
+        fill:#b30059;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-zonals > .campusAmb-sidebar-svg-logo svg .zonalspath{
+        fill:#339933;
+    }
+    .sidenav > .campusAmb-sidebar-contents > .activeSideItem > .campusAmb-sidebar-payment > .campusAmb-sidebar-svg-logo svg .paypath{
+        fill: gold;
+    }
+    .campusAmb-sidebar-svg-logo svg{
+        padding: 0 3px 0 3px;
+        height: auto;
+        width: 16px;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .bulbpath{
+        fill: yellow;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .leaderpath{
+        fill:green;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .profilepath{
+        fill:#b30059;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .guidepath{
+        fill:purple;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .certificatepath{
+        fill:orange;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .contactpath{
+        fill:blue;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .logoutpath{
+        fill:red;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .eventspath{
+        fill:#4C8AE5;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .postpath{
+        fill:red;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .homepath{
+        fill:#00e6e6;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .zonalspath{
+        fill:#339933;
+    }
+    .sidenav .sideNavItem:hover .campusAmb-sidebar-svg-logo svg .paypath{
+        fill:gold;
+    }
+    .referral:hover .campusAmb-sidebar-svg-logo svg .referralpath{
+        cursor: pointer;
+        fill: red;
+    }
+    .campusAmb-sidebar-contents{
+        padding: 0px 0px;
+    }
+    .campusAmb-sidebar-hand{
+        margin-top: 100px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .campusAmb-sidebar-hand div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .campusAmb-sidebar-hand:hover .campusAmb-sidebar-svg-logo svg .handpath{
+        cursor: pointer;
+        fill: yellow;
+    }
+    .campusAmb-sidebar-user {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0 5px 0;
+        height: fit-content;
+    }
+    .campusAmb-sidebar-user > .image {
+        height: 40px;
+        width: auto;
+        border-radius: 50%;
+        padding: 0 5px 0 5px;
+    }
+    .campusAmb-sidebar-user > .campusAmb-sidebar-user-details{
+        display: flex;
+        flex-direction: column;
+        font-family: Montserrat;
+        transition: all 0.2s;
+    }
+    .campusAmb-sidebar-user > .campusAmb-sidebar-user-details > .text {
+        font-weight: bold;
+        padding: 0 5px 0 5px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+    }
+    .campusAmb-sidebar-user > .campusAmb-sidebar-user-details > .cname{
+        padding: 0 5px 0 5px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .campusAmb-sidebar-hand .campusAmb-sidebar-svg-logo {
+        width: 15%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .campusAmb-sidebar-hand .campusAmb-sidebar-svg-logo svg{
+        margin: 5px;
+    }
+    .campusAmb-sidebar-line{
+        height:1px;
+        background-color:#BEBEBE;
+        margin: 10px 0 10px 0;
+    }
+    .flex_row{
+        display: flex;
+        flex-direction: row;
+    }
+    .campusAmb-sidebar-navitem-name{
+        width: 85%;
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 0 10px;
+    }
+    .campusAmb-sidebar-hand-days{
+        width: fit-content;
+        font-size: 14px;
+        letter-spacing: 2px;
+        padding: 5px;
+        font-weight: 600;
+        height: fit-content;
+        margin-top: 3px;
+    }
+    .campusAmb-sidebar-hand-child{
+        width: 100%;
+    }
+    .campusAmb-sidebar-user > .campusAmb-sidebar-like-share-score{
+        display: flex;
+        flex-direction: column;
+    }
+    .campusAmb-sidebar-like-share-score-child{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px 0 10px 0;
+    }
+    .campusAmb-sidebar-likes-child{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    .campusAmb-sidebar-likes-grandchild{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .campusAmb-sidebar-likes-number{
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        padding: 5px 0;
+    }
+    .campusAmb-sidebar-likes-shares-score-data{
+        padding-left: 8px;
+    }
+    .campusAmb-sidebar-score > .campusAmb-sidebar-likes-child > img{
+        padding-right: 8px;
+    }
+    .campusAmb-sidebar-shares > .campusAmb-sidebar-likes-child > img{
+        padding-right: 8px;
+    }
+    .campusAmb-sidebar-likes-child img{
+        height: 14px;
+        width: auto;
+        margin-top:3px; 
+    }
+    .sidenav .sideNavItem {
+        font-size: 1vw;
+        min-font-size: 12px;
+    }
+    .sidenav.collapseSide{
+        width: 70px;
+        min-width: 70px;
+    }
+    .sidenav.collapseSide .sideNavItem {
+        font-size: 0;
+        padding-left: 23px;
+    }
+    .sidenav.collapseSide .sideNavItem > i{
+        visibility: visible;
+        font-size: 18px;
+    }
+    .campusAmb-sidebar-updatenews{
+        font-size: 10px;
+        color: #58595B;
+    }
+    .campusAmb-sidebar-likes > .campusAmb-sidebar-likes-child div{
+        padding: 0 0px;
+    }
+}
+@media only screen and (min-width:768px)
+{
+    .mobile-facebook
+    {
+        display:none; 
+    }
+}
+@media screen and (max-width:1000px) and (min-width:768px){
+    .campusAmb-sidebar-likes-number{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .mobile-facebook
+    {
+        cursor:pointer;
+    }
+    .sidenav{
+        width: 35px;
+        min-width: 35px;
+        padding: 20px 10px 20px 10px;
+    }
+    .sidenav .sideNavItem {
+        font-size: 0;
+        margin-top: 5px;
+        padding:0px 5px 10px 5px;
+    }
+    .campusAmb-sidebar-user > .text{
+        font-size: 0;
+    }
+    .campusAmb-sidebar-user > .image{
+        padding:0px; 
+    }
+    .sidenav.collapseSide{
+        width: 50px;
+        min-width: 50px;
+    }
+    .sidenav.collapseSide .sideNavItem {
+        font-size: 0;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    .campusAmb-sidebar-likes-grandchild-number{
+        margin-top: 13px;
+    }
+    .campusAmb-sidebar-line{
+        display: none;
+    }
+    .campusAmb-sidebar-user > .image {
+        height: 35px;
+        width: auto;
+        border-radius: 50%;
+        padding: 0 0px 0 0px;
+    }
+    .campusAmb-sidebar-user > .campusAmb-sidebar-user-details{
+        display: none;
+    }
+    .campusAmb-sidebar-svg-logo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .campusAmb-sidebar-svg-logo svg{
+        height: 18px;
+        width: auto;
+        margin-top: 50%;
+    }
+    .campusAmb-sidebar-navitem-name{
+        display: none;
+    }
+    .campusAmb-sidebar-score{
+        margin-top: 5px;
+    }
+    .campusAmb-sidebar-shares{
+        margin-top: 5px;
+    }
+    .campusAmb-sidebar-like-share-score-child{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .campusAmb-sidebar-hand{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        transition: all 0.2s;
+        height: 100%;
+    }
+    .campusAmb-sidebar-line{
+        height:1px;
+        background-color:#BEBEBE;
+        border: 50%;
+    }
+    .campusAmb-sidebar-likes-number{
+        display: none;
+        transition: all 0.2s;
+    }
+    .campusAmb-sidebar-likes > .campusAmb-sidebar-likes-child > img{
+        padding-right: 2px;
+    }
+    .campusAmb-sidebar-score > .campusAmb-sidebar-likes-child > img{
+        padding-right: 0px;
+    }
+    .campusAmb-sidebar-shares > .campusAmb-sidebar-likes-child > img{
+        padding-right: 0px;
+    }
+    .campusAmb-sidebar-likes-shares-score-data{
+        padding-left:0px; 
+    }
+    .campusAmb-sidebar-hand div{
+        display: flex;
+        flex-direction: column;
+    }
+    .campusAmb-sidebar-hand .campusAmb-sidebar-svg-logo{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .campusAmb-sidebar-hand-days{
+        display: block;
+        text-align: center;
+        font-size: 10px;
+    }
+}

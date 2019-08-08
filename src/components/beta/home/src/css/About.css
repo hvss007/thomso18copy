@@ -1,0 +1,57 @@
+.beta-home-about
+{
+    color:white;
+    width:70%;
+    height:60vh;
+    margin:33vh;
+    margin:auto;
+    font-family:Montserrat;
+    font-size: 15px;
+    margin-top: 34vh;
+}
+.beta-home-heading
+{
+    text-align:left;
+}
+.beta-home-content
+{
+    text-align: left;
+    font-family:Montserrat;
+    letter-spacing: 1px;
+    word-spacing: -1px;
+    font-weight: lighter; 
+}
+@media only screen and (max-width: 768px) {
+    .beta-home-about
+    {
+        font-size: 13px;
+        margin-top: 23vh;
+        font-family:Montserrat;
+    }
+    .beta-home-content
+    {
+        text-align: left;
+        letter-spacing: 0px;
+        font-family:Montserrat;
+        word-spacing: 0px;
+        font-weight: lighter; 
+    }
+}
+@media (min-width: 1920px) and (max-width: 2560px)
+{
+    .beta-home-content
+    {
+        font-size:24px;
+        font-family:Montserrat;
+    }
+    .beta-home-heading
+    {
+        font-size:32px;
+        font-family:Montserrat;
+    }
+    .beta-home-about
+    {
+       margin-top:30vh;
+    }
+ }
+

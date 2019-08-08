@@ -1,0 +1,171 @@
+.main-toppr-parent{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main-toppr-child-first{
+    height: 80vh;
+    background-image: url("../src/toppr.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.main-toppr-child-first-details{
+    position: absolute;
+    bottom: 10vh;
+    padding: 10px;
+    padding-left: 30px;
+
+}
+.main-toppr-child-first-details-heading{
+    width: fit-content;
+}
+.main-toppr-child-first-details-heading h2{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 36px;
+}
+.main-toppr-child-first-details-heading h2::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 5px;
+    width: 60%;
+}
+.main-toppr-child-first-details-content{
+    width: 50%;
+}
+.main-toppr-child-first-details-content p{
+    overflow: hidden;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.main-toppr-child-second{
+    height: 100%;
+    width: 100%;
+}
+.main-toppr-child-second-heading{
+    padding: 20px 0px;
+    width: 100%;
+}
+.main-toppr-child-second-heading h2{
+    margin: 0;
+    padding: 0;
+    color: #898885;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+}
+.main-toppr-child-second form{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+}
+.main-toppr-form-fields{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main-toppr-form-fields label{
+    font-size: 14px;
+    font-family: Poppins;
+    color: #898885;
+    font-weight: 300;
+    padding: 5px 0px 0px 0px;
+    text-transform: uppercase;
+}
+.main-toppr-form-fields input,.main-toppr-form-fields textarea{
+    padding: 5px 20px;
+    font-family: Poppins;
+    color: #898885;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+.main-toppr-child-second-form-child{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-toppr-form-fields select{
+    padding: 2px 10px;
+    font-family: Poppins;
+    color: #898885;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+.main-toppr-form-fields button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #898885;
+    color: white;
+    border:1px solid #898885;
+    font-family: Poppins;
+    width: fit-content;
+}
+.toppr-association-heading
+{
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-transform:uppercase;
+    margin:0px;
+} 
+.toppr-logo
+{
+    margin-right:10px;
+    margin-left:10px;
+    height:10vh;
+    width:auto;
+}
+.toppr-link
+{
+    text-decoration:none;
+    color:white;
+    margin-left:10px;
+}
+@media only screen and (max-width:768px){
+    .main-toppr-child-first-details{
+        bottom: 0vh;
+    }
+    .main-toppr-child-first-details-content{
+        width: 90%;
+    }
+    .main-toppr-child-second-form-child{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .main-toppr-child-second form{
+        padding: 0px;
+    }
+    .toppr-association-heading
+    {
+        display:block;
+    }
+    .toppr-association-heading
+    {
+        font-size:25px;
+    }
+    .main-toppr-child-first-details-heading h2
+    {
+        font-size:25px;
+    }
+    .toppr-logo
+    {
+        margin-right:10px;
+        margin-left:10px;
+        height:4.1vh;
+        width:auto;
+    }
+}

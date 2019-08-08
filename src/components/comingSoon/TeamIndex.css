@@ -1,0 +1,14 @@
+.team-main-div
+{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   background:url("../home/src/img/about us new.jpg");
+   background-position:center center;
+   background-size:cover;
+   min-height:100vh;
+   color:white;
+   font-size:40px;
+   font-family:Montserrat;
+   text-shadow:0px 0px 1.7px white;
+}

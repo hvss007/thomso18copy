@@ -1,0 +1,390 @@
+.form-submitted-popup-hide
+{
+    opacity:0;
+    transition:all 0.2s;
+    margin:4px;
+}
+.form-submitted-popup
+{
+    opacity:1;
+    transition:all 0.2s;
+    margin:4px;
+    color:wheat;
+}
+.zonalsForm-main-div
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:url('../img/back.jpg');
+    background-position:center;
+    background-size:cover;
+    height:100vh;
+    position: relative;
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+.zonalsform-main-child {
+    display: flex;
+    flex-direction: row;
+    height: 460px;
+    width: 60%;
+    overflow: hidden;
+}
+@keyframes astro-move {
+    0%   {right: 0px;top:0px;}
+    50% {right:30px ;top:20px;}
+    100% {right: 0px;top:0px;}
+}
+.astro-image-zonals
+{
+    width:90%;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+    animation: astro-move 2s infinite;
+}
+.astro-image-zonals-div image{
+    margin-top: 33px;
+}
+.astro-image-zonals-div
+{
+    display:flex;
+    background-color:rgba(55, 90, 117,0.6);
+    flex-direction:row;
+    height:460px;
+    width:50%;
+}
+.astro-image-zonals-div div{
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.zonals-modal-box{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 30vh;
+    padding: 20px;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.zonals-modal-box-child:nth-child(1){
+    color: green;
+    padding: 10px 0px;
+}
+.zonals-modal-box-child:nth-child(2){
+    color: black;
+    padding: 10px 0px;
+    font-size: 12px;
+    line-height: 2em;
+}
+.register-zonals-form-div
+{
+    background-color:rgba(55, 90, 117,0.3);
+    width:50%;
+    position: relative;
+}
+.register-zonals-form-secondchild button{
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    background: rgba(44, 44, 44, 1);
+    font-size: 24px;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 5px;
+    border: 1px solid rgba(44, 44, 44, 1);
+    bottom:0px;
+    position: absolute;
+}
+.register-zonals-form-events-parent{
+    padding: 0px 10px 0px 10px; 
+    height: calc(100% - 25px);
+}
+.register-zonals-form-events-drama{
+    padding: 10px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.register-zonals-form-events-drama span{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.register-zonals-form-events-drama span:nth-child(2){
+    padding-top: 3px;
+}
+.register-zonals-form-events-drama span input{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.1);
+}
+.register-zonals-form-events-dramachild{
+    display: flex;
+    flex-direction: column;
+}
+.register-zonals-form-events-dramachild div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: auto;
+    justify-content: flex-start;
+}
+.register-zonals-form-events-dramachild > div > span > input{
+    cursor: pointer;
+}
+.register-zonals-form-events-dramachild div:nth-child(2){
+    padding-bottom: 10px;
+} 
+.register-zonals-form-events-tgt{
+    padding: 10px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.register-zonals-form-events-tgt span{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.register-zonals-form-events-tgt span:nth-child(2){
+    padding-top: 3px;
+}
+.register-zonals-form-events-tgt span input{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.1);
+}
+.register-zonals-form-events-tgtchild{
+    display: flex;
+    flex-direction: column;
+}
+.register-zonals-form-events-tgtchild div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: auto;
+    justify-content: flex-start;
+}
+.register-zonals-form-events-tgtchild > div > span > input{
+    cursor: pointer;
+}
+.register-zonals-form-events-tgtchild div:nth-child(3){
+    padding-bottom: 10px;
+}
+.register-zonals-form-firstchild{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top:25px; 
+}
+.register-zonals-form-firstchild input{
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 9px; 
+    font-family: Montserrat;
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+.register-zonals-form-firstchild input::placeholder{
+    color: white;
+}
+.register-zonals-form-firstchild input:focus{
+    border-color: white;
+}
+.register-button-zonals
+{
+    background-color:rgba(55, 90, 117,0.6);
+    width:80%;
+    color:white;
+    height: 50px;
+    background-color: #9e9e9e;
+    margin-left:30px;
+}
+.register-zonals-form
+{
+    display:block;
+    height: 100%;
+}
+.register-zonals-form >input
+{
+    padding:12px;
+    margin-bottom:12px;
+    margin-top:12px;
+    margin-left: 23px;
+    width:80%;
+    background-color:rgba(55,90,117,0.3);
+    border:1px solid rgba(255,255,255,0.3);
+    color:white;
+}
+.register-zonals-form >input::placeholder
+{
+    color:white;
+}
+.register-zonals-form-events
+{
+    background-color:rgba(55, 90, 117,0.3);
+    width:100%;
+    position: relative;
+    height: 100%;
+    font-family: Montserrat;
+}
+.active{
+    height: 100%;
+    opacity: 1;
+    transition: opacity 1s;
+}
+.register-zonals-form > .zonals-submit-form
+{
+    background:rgba(44, 44, 44, 1); 
+    margin:0;
+    margin-top:12px;
+    width:100%;
+}
+.register-zonals-form-events-firstchild{
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+}
+.register-zonals-form-events-secondchild{
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: 25px 0px 0px 0px;
+    color: white;
+}
+.register-zonals-form-events-button{
+    display:flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.register-zonals-form-events-button button{
+    width: 50%;
+    color: white;
+    cursor: pointer;
+    background: rgba(44, 44, 44, 1);
+    font-size: 24px;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 5px;
+    border: 1px solid rgba(44, 44, 44, 1);
+}
+.register-zonals-form-events-button div{
+    width: 50%;
+    color: white;
+    cursor: pointer;
+    background: rgba(44, 44, 44, 1);
+    font-size: 24px;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 5px;
+    border: 1px solid rgba(44, 44, 44, 1);
+}
+.register-zonals-form-events-button> div >span
+{
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    display: inline-block
+}
+.inactive{
+    height: 0px;
+    width: 0px;
+    opacity: 0;
+    padding: 0px;
+}
+.low-opacity{
+    opacity: 0.5;
+}
+@media only screen and (max-width:768px)
+{
+    .zonalsform-main-child{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .astro-image-zonals-div{
+        display: none;
+    }
+    .register-zonals-form-div
+    {
+        background-color:rgba(55, 90, 117,0.3);
+        height:180px;
+        width:150px;
+        margin-bottom:10%;
+    }
+    .register-zonals-form-div{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (min-width: 1920px) and (max-width: 2560px)
+{
+    .zonalsform-main-child 
+    {
+        height: 500px;
+        width: 50%;
+    }
+    .astro-image-zonals-div
+    {
+        height:500px;
+        width:45%;
+    }
+    .register-zonals-form-events-parent{
+        padding: 10px 10px 0px 10px; 
+    }
+    .register-zonals-form-firstchild input{
+        margin-top: 12px;
+        padding: 16px; 
+        font-size:16px;
+    }
+    .register-zonals-form-firstchild input::placeholder{
+        font-size:16px;
+    }
+    .register-zonals-form-events-button button{
+        display:inline-flex;
+        width: 50%;
+        color: white;
+        cursor: pointer;
+        background: rgba(44, 44, 44, 1);
+        font-size: 24px;
+        font-family: Montserrat;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding: 5px;
+        border: 1px solid rgba(44, 44, 44, 1);
+        justify-content:center;
+    }
+    .register-zonals-form-events-firstchild{
+        border: 1px solid white;
+        border-radius: 2px;
+        color: white;
+        margin-top:20px;
+    }
+}

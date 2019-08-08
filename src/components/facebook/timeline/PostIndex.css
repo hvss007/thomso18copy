@@ -1,0 +1,62 @@
+.outer-select
+{
+   position: fixed;
+   top: 10px;
+   right: 10px;
+}
+.liked-styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+.liked-styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+.liked-blue    { background-color: #4267B2; }
+.liked-blue select    { color: white; }
+.liked-semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+.facebook-timeline-loader {
+
+}
+.facebook-timeline-div{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 76vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook-not-connected-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76vw;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+.facebook-not-connected-popup > div {
+    background-color: none;
+    padding: 80px;
+    color: white;
+}
+@media only screen and (max-width:768px)
+{
+    .campusAmb-post-index-main
+    {
+        width: calc(100% - 56px);
+    }
+}

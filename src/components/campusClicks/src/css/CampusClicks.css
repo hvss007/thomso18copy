@@ -1,0 +1,23 @@
+.campus-image
+{
+    background:black;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+}
+.campus-image-child
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 18vh;
+    width:30vw;
+    height:auto;
+}
+@media only screen and (max-width:768px)
+{
+    .campus-image-child
+    {
+        width:80vw;
+        height:auto;
+    }
+}

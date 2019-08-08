@@ -1,0 +1,154 @@
+.main-parent-online-events-1
+{
+    display:flex;
+    justify-content:space-around;
+    margin-top:22vh;
+}
+    .onlineevents-mainpage-cards-image-quizardry,.onlineevents-mainpage-cards-image-meme,.onlineevents-mainpage-cards-image-silhoutte,.onlineevents-mainpage-cards-image-xpression,.onlineevents-mainpage-cards-image-campusclicks,.onlineevents-mainpage-cards-image-mrmissthomso,.onlineevents-mainpage-cards-image-cupid
+    {
+        height:450px;
+    }
+.onlineevents-mainpage-parent{
+    background-image: url("../../../beta/home/src/img/background.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    min-height: 100vh;
+    width: 100%;
+}
+.onlineevents-mainpage-cards-image-quizardry
+{
+    background-image: url("../../quizardry/WebFriends.png");
+    background-position: 92%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    border-radius: 3px;
+    opacity: 0.7;
+}
+.onlineevents-mainpage-parent-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25%;
+    height: 100%;
+}
+.onlineevents-mainpage-cards{
+    margin-top: 10%;
+    margin-bottom: auto;
+    border-radius: 3px;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+}
+.onlineevents-mainpage-cards-image-cupid{
+    background-image: url("../../cupid/src/img/cupid.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    border-radius: 3px;
+    opacity: 0.7;
+}
+.onlineevents-mainpage-cards-image-silhoutte{
+    background-image: url("../../silhoutte/src/img/silhoutte.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    opacity: 0.7;
+}
+.onlineevents-mainpage-cards-image-meme{
+    background-image: url("../../meme/src/img/meme.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    opacity: 0.7;
+}
+.onlineevents-mainpage-cards-image-mrmissthomso{
+    background-image: url("../../mrmissthomso/src/img/mrmissthomso.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    opacity: 0.7;
+}
+.onlineevents-mainpage-cards-image-campusclicks{
+    background-image: url("../../campusClicks/src/img/campusclicks.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    border-radius: 3px;
+    opacity: 0.7;
+}
+.onlineevents-mainpage-cards-title{
+    padding: 20px;
+    font-family: Montserrat;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+.onlineevents-mainpage-cards-button{
+    padding: 0px 10px 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.onlineevents-mainpage-cards-text{
+    padding: 0px 10px 20px 10px;
+    display: flex;
+    color:#fff;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.onlineevents-mainpage-cards-button a{
+    padding: 12px 18px;
+    background: transparent;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.onlineevents-mainpage-cards-button a:hover{
+    background:white;
+    color: black;
+    border: 1px solid white;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+@media (max-width:768px){
+    .onlineevents-mainpage-parent-child{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0vh;
+        width:100%;
+    }
+    .onlineevents-mainpage-cards{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-parent-online-events-1
+    {
+        flex-direction:column;
+
+    }
+}
+@media (min-width:1400px){
+    .onlineevents-mainpage-cards{
+        margin-top: 17%;
+    }
+}
+@media (min-width: 1920px) and (max-width: 2560px){
+    .onlineevents-mainpage-cards-image-quizardry,.onlineevents-mainpage-cards-image-meme,.onlineevents-mainpage-cards-image-silhoutte,.onlineevents-mainpage-cards-image-xpression,.onlineevents-mainpage-cards-image-campusclicks,.onlineevents-mainpage-cards-image-mrmissthomso,.onlineevents-mainpage-cards-image-cupid
+    {
+        height:680px;
+    }
+}

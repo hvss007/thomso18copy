@@ -1,0 +1,42 @@
+.campusAmb-guide-main-div
+{
+    background-image: url("../leaderboard/img/dashboard.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:auto;
+    min-height:100vh;
+    width: 75.83vw;
+    margin-left: auto;
+    color:white;
+    font-family:Montserrat;
+    letter-spacing:1px;
+    font-size:13px;
+    background-color: rgba(0,0,0,0.4);
+}
+.campusAmb-guide-child
+{
+    padding:15px; 
+    word-spacing: 2px;
+    line-height: 21px; 
+}
+.campusAmb-guide-child >h2 , .campusAmb-guide-child >h3 
+{
+   text-align:center;
+   font-size: 16px;
+}
+.campusAmb-guide-heading
+{
+   text-align:center; 
+   padding-top: 20px;
+   font-size: 16px;
+}
+@media only screen and (max-width:768px)
+{
+    .campusAmb-guide-main-div
+    {
+        width: calc(100% - 56px);
+    }
+}
+

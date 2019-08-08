@@ -1,0 +1,167 @@
+.beta-home-celebrityMain
+{
+    margin-top:24vh;
+    vertical-align:center;
+    display:flex;
+    color:white;
+    justify-content:center;
+    align-items: center;
+    font-family:Montserrat;
+    font-size:15px;
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+.beta-home-hoverEffect
+{
+    margin:15px;
+    height:38vh;
+    width:15vw;
+    position:relative;
+    font-family:Montserrat;
+    border-radius:10px;
+}
+.beta-home-celebrityMain > div >p
+{
+    position:absolute;
+    bottom:-8vh;
+    font-family:Montserrat;
+    font-size:14px;
+    text-align:center;
+}
+.beta-home-farhan
+{
+    left:11%;
+}
+.beta-home-nucleya
+{
+    left:20%;
+}
+.beta-home-sunidhi
+{
+    left:6%;
+}
+.beta-home-nucleya
+{
+    left:31%;
+}
+.beta-home-celebImage
+{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 15vw;
+    height:38vh;
+    border-radius:10px;
+    transition:0.2s;
+}
+.beta-home-hoverEffect:hover  .beta-home-celebImage
+{
+    filter:blur(1px);
+}
+.beta-home-hoverEffect:hover  .beta-home-middle
+{
+    opacity:1;
+}
+.beta-home-middle
+{
+    opacity:0;
+    position:absolute;
+    bottom: 21%;
+    transition:0.2s;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .beta-home-celebrityMain
+    {
+        flex-direction:column;
+        margin-top:10vh;
+    }
+    .beta-home-celebrityMain > div
+    {
+        margin:18px;
+        height:18vh;
+        width:30vw;
+        position:relative;
+    }
+    .beta-home-celebrityMain > div >p
+    {
+        position:absolute;
+        bottom:-5vh;
+        font-size:8px;
+        text-align:center;
+    }
+    .beta-home-farhan
+    {
+        left:17%;
+    }
+    .beta-home-nucleya
+    {
+        left:20%;
+        bottom:-4vh;
+    }
+    .beta-home-sunidhi
+    {
+        left:2%;
+    }
+    .beta-home-celebImage
+    {
+        height:18vh;
+        width:30vw;
+    }
+    .beta-home-middle
+    {
+       font-size:8px;
+       top:30%;
+    }
+}
+@media (min-width: 1920px) and (max-width: 2560px)
+{
+    .beta-home-celebrityMain
+    {
+        margin-top:26vh;
+    }
+    .beta-home-celebrityMain > div >p
+    {
+        font-family:Montserrat;
+        font-size:19px;
+        text-align:center;
+        bottom:-8vh;
+        letter-spacing: 5px;
+    }
+    .beta-home-sunidhi
+    {
+        left:-5%;
+        text-align:left;
+        width:100%;
+    }
+    .beta-home-farhan
+    {
+        left:3%;
+    }
+    .beta-home-nucleya
+    {
+        left:23%;
+    }
+    .beta-home-hoverEffect
+    {
+        margin:50px;
+    }
+    .beta-home-middle
+    {
+        font-size:21px;
+        opacity:0;
+        position:absolute;
+        bottom: 10%;
+        transition:0.2s;
+        text-align: center;
+        width:252.94px;
+    }
+     .beta-home-celebImage
+    {
+        height:37vh;
+        width:auto;
+    }
+    
+}

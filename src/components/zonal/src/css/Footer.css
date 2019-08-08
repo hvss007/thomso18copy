@@ -1,0 +1,238 @@
+.zonals-footer-address
+{
+    display:flex;
+    text-align:center;
+    justify-content:flex-end;
+}
+.address-name-zonals
+{
+    font-size:16px;
+    margin-bottom:'5px';
+    font-weight:bolder;
+}
+.zonals-footer-text-p
+{
+    font-size:16px;
+    font-weight:bolder;
+    margin-bottom:10px;
+}
+.zonals-footer-main-div
+{
+    display:flex;
+    justify-content:space-between;
+    background-color:#4b4c4d;
+    color:white;
+    font-family:Montserrat;
+    padding:12px;
+}
+.zonals-footer-follow
+{
+    display:flex;
+    flex-direction:column; 
+    width:33.33%;
+    align-items:center;
+    justify-content:center;
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+.zonals-footer-iconsImage
+{
+    width:40px;
+    height:40px;
+}
+.zonals-footer-mainIcons
+{
+    margin-top:4px;
+    display:inline-flex;
+    width:fit-content;
+}
+.zonals-footer-contact
+{
+    width:33.33%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin:4px;
+    justify-content:center;
+}
+.zonals-footer-address
+{
+    width:33.33%;
+    margin-left:10px;
+}
+.zonals-footer-fbdiv, .zonals-footer-ytdiv , .zonals-footer-instadiv , .zonals-footer-linkediv
+{
+    width:40px;
+    height:40px;
+    margin-left:10px;
+    border-radius:50%;
+    transition: 0.5s;
+}
+.common-cursor{
+    cursor : default;
+}
+.zonals-contact-name
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:16px;
+    font-weight:bolder;
+    width:70%;
+    margin-bottom:8px;
+}
+.zonals-contact-person
+{
+   display:flex; 
+   justify-content:flex-start;
+   width:100%;
+}
+.zonals-contact-person > div
+{
+   width:35%;
+}
+.zonals-contact-person-child
+{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+}
+@media screen and (min-width: 768px)
+{
+    .zonals-footer-fbdiv:hover,.zonals-footer-ytdiv:hover,.zonals-footer-instadiv:hover,.zonals-footer-linkediv:hover
+    {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Safari 3-8 */
+        transform: rotate(360deg);
+    }
+    .zonals-footer-fbdiv:hover
+    {
+        background:#3b5998;
+    }
+    .zonals-footer-ytdiv:hover
+    {
+        background:#ff0000;
+    }
+    .zonals-footer-instadiv:hover
+    {
+        background:#c32aa3;
+    }
+    .zonals-footer-linkediv:hover
+    {
+        background:#007bb5;
+    }
+    .common-cursor{
+        cursor : default;
+    }
+    .zonals-footer-main-div
+    {
+        font-size:15px; 
+    }
+}
+@media only screen and (max-width: 768px) {
+    .zonals-footer-iconsImage
+    {
+        width:15px;
+        height:15px;
+    }
+    .zonals-footer-mainIcons
+    {
+        margin-top:2px;
+        display:inline-flex;
+    }
+    .zonals-footer-fbdiv:hover
+    {
+        background:blue;
+    }
+    .zonals-footer-ytdiv:hover
+    {
+        background:red;
+    }
+    .zonals-footer-instadiv:hover
+    {
+        background:pink;
+    }
+    .zonals-footer-linkedin:hover
+    {
+        background:lightblue;
+    }
+    .zonals-footer-fbdiv, .zonals-footer-ytdiv , .zonals-footer-instadiv , .zonals-footer-linkediv
+    {
+        width:15px;
+        height:15px;
+        margin-left:2px;
+        border-radius:50%;
+    }
+    .common-cursor{
+        cursor : default;
+    }
+    .zonals-footer-main-div
+    {
+        font-size:8px; 
+        padding:3px;
+    }
+    .address-name-zonals
+    {
+        font-size:9px;
+        margin-bottom:'5px';
+        font-weight:bolder;
+    }
+    .zonals-footer-text-p
+    {
+        font-size:9px;
+        font-weight:bolder;
+    }
+    .zonals-contact-name
+    {
+       font-size:9px;
+       width:100%;
+    }
+    .zonals-footer-address
+    {
+        margin:0;
+    }
+    .zonals-footer-contact
+    {
+        margin:0;
+    }
+    .zonals-contact-person > div
+    {
+        width:50%;
+    }
+    .zonals-contact-person > div >div
+    {
+        font-size:7px; 
+    }
+}
+@media (min-width: 1920px) and (max-width: 2560px)
+{
+    .zonals-footer-iconsImage
+    {
+        width:50px;
+        height:50px;
+    }
+    .zonals-footer-fbdiv, .zonals-footer-ytdiv , .zonals-footer-instadiv , .zonals-footer-linkediv
+    {
+        width:50px;
+        height:50px;
+        margin-left:15px;
+        border-radius:50%;
+    }
+    .zonals-footer-mainIcons { margin-top:6px;
+    }
+    .common-cursor{
+        cursor : default;
+    }
+    .zonals-contact-name
+    {
+       width:50%;
+    }
+    .zonals-contact-person >div
+    {
+       width:25%;
+    }
+
+}

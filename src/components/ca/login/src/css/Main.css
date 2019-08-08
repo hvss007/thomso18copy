@@ -1,0 +1,138 @@
+.ca-opening-middlesection
+{
+    height: 100vh;
+    width:100%;
+}
+.ca-opening-child-middle{
+    background-image:url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+}
+@keyframes bounce {
+    0%, 100%, 20%, 50%, 80% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+.ca-opening-downarrow
+{
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    margin-top: 15vh;
+    z-index: 10;
+    animation: bounce 2s infinite;
+}
+.ca-opening-button-parent {
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    top:15%;    
+}
+.ca-opening-button
+{
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    cursor: pointer;
+    width: fit-content;
+    padding: 15px;
+    background: none;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: white;
+        border: 0px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 5px;
+}
+.sorry
+{
+    width: 50%;
+    margin: auto;
+    color: white;
+    position: absolute;
+    left: 29%;
+    top: 6%;
+    text-align: center;
+    font-family: Montserat;
+    font-weight: bold;
+}
+.formEmail
+{
+    position:absolute;
+    top:9%;
+    left:33%;
+}
+.black{
+    color: #000;
+}
+.inconvi{
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: white;
+}
+.inconvi .sorry{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: white;
+}
+
+.Ca-login-Section-Parent{
+  background: white;
+
+}
+@media (min-width: 1920px) and (max-width: 2560px)
+{
+   .downarrow
+   {
+       height: 5vh;
+       left: 48%;
+       top: 74vh;
+   }
+   .buttonca
+   {
+       left: 44%;
+       top: 10%;
+       padding: 25px;
+       font-size: 32px;
+   }
+
+}
+@media only screen and (max-width:768px)
+{
+    .downarrow
+    {
+
+        left: 41%;
+        top: 84vh;
+    }
+    .buttonca
+    {
+        left: 30%;
+        top: 350px;
+    }
+    .sorry
+    {
+      font-size:14px;
+      left:27%;
+      top:0%;
+    }
+    .formEmail
+    {
+      top:4%;
+      left:25%;
+    }
+}

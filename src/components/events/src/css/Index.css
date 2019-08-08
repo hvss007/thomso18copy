@@ -1,0 +1,11 @@
+.index-main-div
+{
+    display:flex;
+    justify-content:center;
+    background-image:url("../../../beta/home/src/img/background.jpeg");
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center center;
+    background-repeat:no-repeat;
+    padding-bottom: 30px;
+}

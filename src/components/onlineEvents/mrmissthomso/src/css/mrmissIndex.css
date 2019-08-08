@@ -1,0 +1,56 @@
+.mrmiss-image
+{
+    background:black;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+}
+.mrmiss-image-child
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 18vh;
+    width:30vw;
+    height:auto;
+}
+.mrmiss-online-events-rulebook
+{
+    text-transform: uppercase;
+    display: inline;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 21px;
+    cursor:pointer;
+}
+.mrmiss-online-events-rulebook:hover
+{
+    background-color:white;
+    color:black;
+}
+@media only screen and (min-width:800px)
+{
+    .mrmiss-online-events-rulebook
+    {
+        position: absolute;
+        right: 16%;
+        top: 50%;
+    }
+}
+@media only screen and (max-width:800px)
+{
+    .mrmiss-image-child
+    {
+        width:80vw;
+        height:auto;
+    }
+    .mrmiss-online-events-rulebook
+    {
+        position:absolute;
+        right:29%;
+        bottom:5%;
+    }
+    .mrmiss-image >div
+    {
+        position:relative;
+    }
+}

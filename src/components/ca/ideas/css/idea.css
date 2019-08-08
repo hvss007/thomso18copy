@@ -1,0 +1,229 @@
+.ca-idea-parent{
+    width: 76%;
+    margin-left: auto;
+    font-family: Montserrat;
+    background-image: url("../../../beta/home/src/img/dashboard.jpg");
+    background-attachment: fixed;
+    height: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.ca-idea-parent form{
+    padding: 0 20px 0px 20px;
+    color: white;
+    opacity: 0.9;
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+.ca-idea-heading{
+    display: flex;
+    flex-direction: row;
+}
+.ca-idea-heading h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.ca-idea-form{
+    width: 80%;
+    padding: 0 0 0 20px;
+}
+.ca-idea-dot{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: 15px;
+    opacity: 0.6;
+}
+.ca-idea-comment{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 0 0 0 50px;
+}
+.ca-idea-comment span{
+    font-size: 14px;
+    color: white;
+}
+.ca-idea-comment p{
+    margin: 0;
+    padding-top:2px; 
+    padding-left: 4px;
+    font-size: 12px;
+    color: #BEBEBE;
+}
+.ca-idea-subject-child{
+    margin-right: 5px;
+}
+.ca-idea-subject{
+    display: flex;
+    flex-direction: row;
+}
+.ca-idea-subject input{
+    padding: 7px;
+    font-size: 14px;
+    outline: 0;
+    color: white;
+    border-width: 0 0 2px;
+    background: none;
+    font-family: Montserrat;
+    width: 40%;
+}
+.ca-idea-subject input::placeholder{
+    color: white;
+}
+.ca-idea-details textarea::placeholder{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.ca-idea-details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 0 0 0 50px;
+}
+.ca-idea-details textarea{
+    outline: 0;
+    font-size: 14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    color: white;
+    border-color: #BEBEBE;
+    font-family: Montserrat;
+    padding: 7px;
+    width: 100%;
+    background: none;
+    height: auto;
+}
+
+.ca-idea-details textarea::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 5px;
+}
+
+.ca-idea-details textarea::-webkit-scrollbar
+{
+	width: 10px;
+}
+
+.ca-idea-details textarea::-webkit-scrollbar-thumb
+{
+	background-color: #AAA;
+	border-radius: 5px;
+}
+
+.ca-idea-submit{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 33%;
+    margin-left: auto;
+    padding: 0px 0 0 0;
+}
+.ca-idea-submit button{
+    background: none;
+    font-size: 12px;
+    color:rgb(255, 255, 255);;
+    font-family: Montserrat;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    padding: 10px 10px 0px 10px;
+}
+.ca-idea-submit button::after {
+    content: "";
+    display: block;
+    margin-top: 0vh;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s;
+}
+
+.ca-idea-submit button:hover::after {
+    width: 100%;
+}
+.ca-idea-edit-cancel-submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.ca-idea-edit-cancel div{
+    padding: 10px 20px 5px 5px;
+    font-family: Montserrat;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    font-size: 12px;
+}
+.ca-idea-edit-cancel div::after {
+    content: "";
+    display: block;
+    margin-top: 0vh;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s;
+}
+.ca-idea-edit-cancel div:hover::after {
+    width: 100%;
+}
+.ca-idea-delete{
+    padding: 10px 5px 0px 5px;
+    background: none;
+    font-family: Montserrat;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    font-size: 12px;
+}
+.ca-idea-delete::after {
+    content: "";
+    display: block;
+    margin-top: 0vh;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s;
+}
+
+.ca-idea-delete:hover::after {
+    width: 100%;
+}
+.ca-idea-comment{
+    margin-top: 10px;
+}
+.ca-idea-comment p{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+}
+@media (max-width:800px){
+    .ca-idea-details textarea{
+        height: 40px;
+    } 
+    .ca-idea-subject input{
+        padding: 7px;
+        font-size: 14px;
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: #BEBEBE ;
+        font-family: Montserrat;
+        width: 38%;
+        background: none;
+    }
+}
+@media screen and (max-width:768px){
+    .ca-idea-parent{
+        width: calc(100% - 56px);
+    }
+}

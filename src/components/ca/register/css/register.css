@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800,600");
+
+.register-parent{
+    width: 100%;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    height: 100vh;
+    font-family: Montserrat;
+    color: white;
+}
+.register-child{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.register-heading{
+    display: flex;
+    padding: 10px 10px 0px 30px;
+}
+.register-ca{
+    padding-left: 20px;
+    margin: auto 0px;
+}
+.register-ca h1{
+    color: white;
+    font-weight: 600;
+    font-family: Montserrat;
+    opacity: 0.8;
+    font-size: 1.4em;
+
+}
+.vertical_line{
+    height: 35px;
+    margin-top: 35px;
+    background-color: white;
+    width: 1px;
+}
+.r-logo{
+    padding: 10px;
+}
+.r-logo img{
+    width: auto;
+    height: 75px;
+    cursor: pointer;
+}
+.register-form{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.register-form form{
+    width: 33.5%;
+    margin-top: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.form-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.form-heading h2{
+    margin: 0;
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: Montserrat;
+    opacity: 0.8;
+}
+.form-first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+.form-name{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.form-name label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 12px;
+}
+.form-name input{
+    font-size: 14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BEBEBE ;
+    font-family: Montserrat;
+    background: none;
+    color: white;
+    padding: 5px;
+}
+.form-name input::placeholder{
+     color: white;
+     text-align: center;
+}
+.form-name input:focus::-webkit-input-placeholder { color:transparent; }
+.form-contactnumber{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.form-contactnumber label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 12px;
+}
+.form-contactnumber input{
+    font-size: 14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BEBEBE ;
+    font-family: Montserrat;
+    background: none;
+    color: white;
+    padding: 5px;
+}
+.form-contactnumber input::placeholder{
+     color: white;
+     text-align: center;
+}
+.form-contactnumber input:focus::-webkit-input-placeholder { color:transparent; }
+.form-email{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.form-email label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 12px;
+}
+.form-gender{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.form-gender label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 12px;
+}
+.form-email input{
+    font-size: 14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BEBEBE ;
+    font-family: Montserrat;
+    background: none;
+    color: white;
+    padding: 5px;
+}
+.form-email input::placeholder{
+    color: white;
+    text-align: center;
+}
+.form-email input:focus::-webkit-input-placeholder { color:transparent; }
+.form-gender select{
+    font-size: 14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BEBEBE ;
+    font-family: Montserrat;
+    background: none;
+    color: white;
+    padding: 5px 5px 3px 5px;
+}
+.form-gender select::placeholder{
+    color: white;
+    text-align: center;
+}
+.form-gender select option{
+    color: #58595B;
+}
+.form-gender select:focus::-webkit-input-placeholder { color:transparent; }
+.form-college-child{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin: auto;
+    margin-top: 15px;
+}
+.form-college-child label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 12px;
+}
+.form-college-child input{
+    font-size: 14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BEBEBE ;
+    text-align: center;
+    font-family: Montserrat;
+    background: none;
+    color: white;
+    padding: 5px;
+}
+.form-college-child input::placeholder{
+    color: white;
+    text-align: center;
+}
+.form-college-child input:focus::-webkit-input-placeholder { color:transparent; }
+.form-state{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.form-state label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 12px;
+}
+.form-branch{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.form-branch label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 9px
+}
+.form-branch input{
+    font-size: 14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BEBEBE ;
+    font-family: Montserrat;
+    background: none;
+    color: white;
+    padding: 5px 5px 3px 5px;
+}
+.form-branch input::placeholder{
+    color: white;
+    text-align: center;
+}
+.form-branch input:focus::-webkit-input-placeholder { color:transparent; }
+.form-state select{
+    font-size: 14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BEBEBE ;
+    font-family: Montserrat;
+    background: none;
+    color: white;
+    padding: 5px 5px 3px 5px;
+}
+.form-state select::placeholder{
+    color: white;
+    text-align: center;
+}
+.form-state select option{
+    color: #58595B;
+}
+.form-state .form-state-select:focus::-webkit-.form-state-select-placeholder { color:transparent; }
+.form-add-child{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin: auto;
+    margin-top: 15px;
+}
+.form-add-child label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 12px;
+}
+.form-add-child input{
+    font-size: 14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BEBEBE ;
+    font-family: Montserrat;
+    background: none;
+    color: white;
+    padding: 5px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+.form-add-child input::placeholder{
+    color: white;
+    text-align: center;
+}
+.form-add-child input:focus::-webkit-input-placeholder { color:transparent; }
+.form-inwhy-child{
+    display: flex;
+    flex-direction: column;
+    width: 93% !important;
+    margin: auto;
+    margin-top: 15px;
+}
+.form-inwhy-child label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 12px;
+}
+.form-inwhy-child textarea{
+    overflow: hidden;
+    margin-top: 5px;
+    font-size: 14px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BEBEBE ;
+    font-family: Montserrat;
+    background: none;
+    color: white;
+    padding: 5px;
+}
+.form-inwhy-child textarea::placeholder{
+    color: white;
+    text-align: center;
+}
+.form-inwhy-child textarea:focus::-webkit-textarea-placeholder { color:transparent; }
+.register{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.register button{
+    cursor: pointer;
+    padding: 15px;
+    background: none;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: white;
+    border: 0px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 5px;
+}
+.common-cursor{
+  cursor : default;
+}
+@media (max-width:800px){
+    .register-parent{
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .vertical_line{
+        display: none;
+    }
+    .register-heading{
+        display: flex;
+        transition: all 0.4s;
+    }
+    .form-heading h2{
+        font-size: 18px;
+        transition: all 0.3s;
+    }
+    .r-logo{
+        margin: auto;
+    }
+    .register-ca{
+        text-align: center;
+    }
+    .register-form form{
+        margin-top: 20px;
+        width: 70%;
+    }
+    .form-first-child{
+        display: flex;
+        flex-direction:column;
+        margin-top: 5px;
+    }
+    label{
+        padding: 5px;
+    }
+    .form-name{
+        margin-top: 5px;
+        width: 100%;
+    }
+    .form-gender{
+        margin-top: 5px;
+        width: 100%;
+    }
+    .form-email{
+        margin-top: 5px;
+        width: 100%;
+    }
+    .form-state{
+        margin-top: 5px;
+        width: 100%;
+    }
+    .form-branch{
+        margin-top: 5px;
+        width: 100%;
+    }
+    .form-contactnumber{
+        margin-top: 5px;
+        width: 100%;
+    }
+    .form-name{
+        width: 100%;
+    }
+    .common-cursor{
+      cursor : default;
+    }
+}

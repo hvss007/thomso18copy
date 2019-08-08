@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
+.zonals-delhi-parent{
+    background-image: url("../../beta/home/src/img/zonals-delhi-footer.jpg");
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    background-position: center;
+    font-family: Montserrat;
+    overflow: hidden;
+}
+.zonals-delhi-child{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    margin: auto;
+    position: relative;
+    height: 100%;
+}
+.zonals-delhi-rightslide{
+    display: flex;
+    flex-direction: row;
+    width: 55%; 
+}
+.zonals-delhi-logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,0.3);
+}
+.zonals-delhi-logo-child{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,0.3);
+}
+.zonals-delhi-form-div{
+    background: rgba(0,0,0,0.25);
+    width: 100%;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);
+}
+.zonals-delhi-form-div form{
+    width: 100%;
+}
+.zonals-delhi-form-fields{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px 30px 0px;
+}
+.zonals-delhi-form-fields input{
+    margin-top:20px;
+    padding: 9px; 
+    font-family: Montserrat;
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+.zonals-delhi-form-fields input::placeholder{
+    color: white;
+}
+.zonals-delhi-form-fields input:focus{
+    border-color: white;
+}
+.zonals-delhi-form-button button{
+    width: 100%;
+    cursor: pointer;
+    background: #2C2C2C;
+    padding: 5px;
+    font-weight: bolder;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: Montserrat;
+    border: 1px solid #2C2C2C;
+}
+.zonals-delhi-events{
+    position: relative;
+    background: rgba(0,0,0,0.25);
+    width: 50%;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);
+    height: 361px;
+}
+.zonals-delhi-events-details{
+    display: flex;
+    flex-direction: column;
+}
+.zonals-delhi-events-button{
+    width: 100%;
+    position:absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.zonals-delhi-events-button button{
+    width: 50%;
+    cursor: pointer;
+    background: #2C2C2C;
+    padding: 5px;
+    font-weight: bolder;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: Montserrat;
+    border: 1px solid #2C2C2C;
+}
+.zonals-delhi-register-astro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.zonals-delhi-register-astro img{
+    height: 325px;
+    width: auto;
+    margin-top:0; 
+}
+.zonals-delhi-register-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.zonals-delhi-register-button button{
+    cursor: pointer;
+    opacity: 0.8;
+    width: 70%;
+    cursor: pointer;
+    background: #9E9E9E;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: Montserrat;
+    border: 1px solid #9E9E9E;
+}
+.zonals-delhi-events-details-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Montserrat;
+}
+.zonals-delhi-events-details-heading h3{
+    color: white;                   
+    font-size: 26px;
+}
+.zonals-delhi-events-details-child{
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.zonals-delhi-details-tr{
+    color:rgba(0,0,0);
+}
+.zonals-delhi-details-td{
+    padding-left: 5px;
+}
+@media screen and (max-width:800px){
+    .zonals-delhi-child{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .zonals-delhi-form-div{
+        width: 100%;
+    }
+    .zonals-delhi-logo{
+        width: 100%;
+    }
+}

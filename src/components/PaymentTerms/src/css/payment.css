@@ -1,0 +1,39 @@
+.payment-terms-main-div
+{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color:#000000bd;
+     min-height: 100vh;
+     color:white;
+}
+.payment-terms-child > ul >li
+{
+    letter-spacing: 1px;
+    padding:12px;
+    font-family: Montserrat;
+}
+.payment-terms-child >h1
+{
+    text-align:center;
+    margin-top:100px;
+}
+.payment-terms-buttons{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.payment-terms-buttons button{
+    margin-top:12px;
+    color:white;
+    padding: 10px 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 2px;
+    transition: all 0.3s;
+}

@@ -1,0 +1,21 @@
+.ngo-card-main-div
+{
+    display:flex;
+    flex-direction:column;
+    width:440px;
+    margin:30px;
+}
+.ngo-card-image
+{
+    width:100%;
+    height:auto;
+}
+.ngo-card-main-div >p
+{
+    font-family:Montserrat;
+    margin:0;
+}
+.ngo-card-main-div > h2
+{
+    font-family:Montserrat;
+}

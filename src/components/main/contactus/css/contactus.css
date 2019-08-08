@@ -1,0 +1,259 @@
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.campusAmb-contact-parent{
+    width: 76%;
+    min-height: 100vh;
+    margin-left: auto;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    background-image: url("../../../beta/home/src/img/dashboard.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+.campusAmb-contact-parent-main {
+    background-image: url('../../../main/src/img/trianglify.png');
+}
+
+.campusAmb-contact-child{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.campusAmb-contact-child-first{
+    width:30%;
+    padding: 10px;
+}
+.campusAmb-contact-child-second{
+    width:30%;
+    padding: 10px;
+}
+.campusAmb-contact-child-third{
+    width: 30%;
+    padding: 10px;
+}
+.campusAmb-contact-child-fourth{
+    width: 30%;
+    padding: 10px;
+}
+.campusAmb-contact-image_one{
+    background-image: url("../../../beta//home/src/img/harshit.jpg");
+    box-shadow: 2px 2px 7px 2px rgba(55,55,55,.1);
+    background-position: center center;
+    height:300px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.campusAmb-contact-image_two{
+    background-image: url("../../../beta//home/src/img/niranjan.jpg");
+    box-shadow: 2px 2px 7px 2px rgba(55,55,55,.1);
+    height:300px;
+    width: auto;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.campusAmb-contact-image_six{
+    background-image: url("../../../beta//home/src/img/shubham.jpg");
+    box-shadow: 2px 2px 7px 2px rgba(55,55,55,.1);
+    height:300px;
+    width: auto;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.campusAmb-contact-image_seven{
+    background-image: url("../../../beta//home/src/img/dhaka.jpg");
+    box-shadow: 2px 2px 7px 2px rgba(55,55,55,.1);
+    height:300px;
+    width: auto;
+    display: flex;
+    background-size: cover;
+    background-position: 8% 8%;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.campusAmb-contact-image_one:hover {
+    opacity: 1;
+}
+.campusAmb-contact-image_two:hover {
+    opacity: 1;
+}
+.campusAmb-contact-image_three:hover {
+    opacity: 1;
+}
+.campusAmb-contact-image_three{
+    background-image: url("../../../beta//home/src/img/nikhilsir.jpg");
+    box-shadow: 2px 2px 7px 2px rgba(55,55,55,.1);
+    height:300px;
+    width: auto;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.campusAmb-contact-image_four{
+    background-image: url("../../../beta//home/src/img/prashantsir.jpg");
+    box-shadow: 2px 2px 7px 2px rgba(55,55,55,.1);
+    background-position: center center;
+    height:300px;
+    width: auto;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.campusAmb-contact-image_four:hover {
+    opacity: 1;
+}
+.campusAmb-contact-details{
+    width: auto;
+    box-shadow: 2px 2px 7px 2px rgba(55,55,55,0.4);
+    display: flex;
+    flex-direction: column;
+}
+.campusAmb-contact-details-name{
+    padding:10px 0 0 20px;
+}
+.campusAmb-contact-details-name h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.campusAmb-contact-details-post{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.campusAmb-contact-details-post h2{
+    font-size: 12px;
+    font-weight: 600;
+}
+.campusAmb-contact-details-gmail{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.campusAmb-contact-details-gmail img{
+    height: 18px;
+    width: auto;
+    padding: 5px 5px 0 5px;
+}
+.campusAmb-contact-details-gmail span{
+    font-size: 14px;
+    font-family: Montserrat;
+    padding-left:10px; 
+}
+.campusAmb-contact-details-call{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.campusAmb-contact-details-call img{
+    height: 16px;
+    width: auto;
+    padding: 5px 5px 0 5px;
+}
+.campusAmb-contact-details-call span{
+    font-size: 14px;
+    font-family: Montserrat;
+    padding-left: 10px;
+}
+@media screen and (max-width:1096px){
+    .campusAmb-contact-parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .campusAmb-contact-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .campusAmb-contact-child-first{
+        width:60%;
+        padding: 10px;
+    }
+    .campusAmb-contact-child-second{
+        width:60%;
+        padding: 10px;
+    }
+    .campusAmb-contact-child-third{
+        width: 60%;
+        padding: 10px;
+    }
+    .campusAmb-contact-child-fourth{
+        width: 60%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:768px){
+    .campusAmb-contact-parent{
+        width: calc(100% - 56px);
+    }
+    .campusAmb-contact-image_one{
+        background-position: 10% 10%;
+    }
+    .campusAmb-contact-image_second{
+        background-position: 10% 10%;
+    }
+    .campusAmb-contact-image_third{
+        background-position: 10% 10%;
+    }
+    .campusAmb-contact-image_fourth{
+        background-position: 10% 10%;
+    }
+    .campusAmb-contact-child-first{
+        width:90%;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .campusAmb-contact-child-second{
+        width:90%;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .campusAmb-contact-child-third{
+        width: 90%;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .campusAmb-contact-child-fourth{
+        width: 90%;
+        padding: 10px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:403px){
+    .campusAmb-contact-details-gmail span{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,62 @@
+.campus-popup-main-div
+{
+    height: 100vh;
+    width: 100vw ;
+    position: fixed;
+    z-index: 300 ;
+    background:rgba(0,0,0,0.7) ;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.campus-popup
+{
+    height:50%;
+    width:50%;
+    background:rgba(200,200,255,1);
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:2px solid #7b1958;
+    border-radius:20px;
+}
+.campus-popup-msg
+{
+    font-size:20px;
+}
+.campus-popup-msg > p 
+{
+    text-align:center;
+}
+.campus-popup-msg > div> button
+{
+    padding:10px;
+    font-weight:bold;
+    padding-left:20px;
+    padding-right:20px;
+    text-align:center;
+    border:2px solid #7b1958;
+    transition:0.2s;
+    border-radius:10px;
+}
+.campus-popup-msg > div> button:hover
+{
+    background-color:#7b1958;
+    color:white;
+}
+.campus-popup-msg >div
+{
+    display:flex;
+    justify-content:center;
+}
+@media only screen and (max-width:768px)
+{
+    .campus-popup-msg
+    {
+       font-size:12px;
+       
+    }
+}

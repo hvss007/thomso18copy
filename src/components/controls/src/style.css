@@ -1,0 +1,144 @@
+.controls-parent{
+    display: flex;
+    overflow: hidden;
+}
+.controlsMainDiv{
+    width:30vw;
+    padding-left:150px;
+    display:inline-block;
+    border-right:2px dashed #999;
+    min-height:100vh;
+}
+.controlsRedError{
+     text-align: center;
+      color: red;
+      font-weight: 600 
+}
+.controlsGreenError{
+    text-align: center;
+    color: green;
+    font-weight: 600 
+}
+
+.controlsCsecondDiv{
+    display:inline-block;
+     padding-left:50px;
+      font-size:15px;
+      margin-top: 5%;
+}
+.controlsThomsoIdForm{
+    padding:10px;
+    border-radius:4px
+}
+.controlsNoUSer{
+    font-size: 18px,
+}
+.controlPaymentForm{
+    padding: 8px;
+    font-size: small;
+}
+.controlAccomodatioForm{
+    padding: 8px;
+    font-size: small;
+}
+.controlsDetail span{
+    font-size: 20px;
+    font-weight: bold;  
+    /* line-height: 2; */
+}
+.controlAccomodatioFormLabel{
+    font-size: 19px;
+    padding-right: 30px;
+}
+.contols-detail{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: row;
+}
+.contols-detail div:nth-child(1){
+    width: 25%;
+    font-weight: 600;
+    font-size: 16px;
+}
+.contols-detail div:nth-child(2){
+    width: 65%;
+    font-size: 16px;
+}
+.controlsCsecondDiv{
+    width: 100%;
+}
+.controls-input{
+    width: 100%;
+    display: flex;
+    font-family:Montserrat;
+    padding: 10px;
+    margin-top: 5px;
+}
+.controls-input label{
+    width: 25%;
+    font-weight: 600;
+    font-size: 16px;
+}
+.controls-input select{
+    font-family: Montserrat;
+    width: 25%;
+}
+.controls-button{
+    padding: 10px;
+}
+.controls-button button{
+    padding: 10px 30px;
+    font-family: Montserrat;
+    background: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 3px;
+}
+@media only screen and (max-width:768px){
+    .controls-parent{
+        flex-direction: column;
+    }
+    .controlsMainDiv{
+        width:100vw;
+        padding-left:0px;
+        display:flex;
+        flex-direction: column;
+        border: none;
+        min-height:100vh;
+        padding: 20px 20px 20px 30px;
+    }
+    .controlsCsecondDiv{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .contols-detail div:nth-child(1){
+        width: 40%;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .contols-detail div:nth-child(2){
+        width: 60%;
+        font-size: 16px;
+    }
+    .controls-input{
+        width: 100%;
+        display: flex;
+        font-family:Montserrat;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    .controls-input label{
+        width:40%;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .controls-input select{
+        font-family: Montserrat;
+        width: 40%;
+    }
+}

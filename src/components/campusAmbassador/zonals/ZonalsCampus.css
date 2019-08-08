@@ -1,0 +1,153 @@
+.zonals-mainpage-parent
+{
+    background-image: url("../leaderboard/img/dashboard.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:auto;
+    min-height:100vh;
+    width: 75.83vw;
+    margin-left: auto;
+    color:white;
+    font-family:Montserrat;
+    letter-spacing:1px;
+    font-size:13px;
+    background-color: rgba(0,0,0,0.4);
+    overflow:auto;
+}
+.zonals-mainpage-main-page
+{
+    background-image:url("../../main/src/img/trianglify.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:auto;
+    min-height:100vh;
+    width: 75.83vw;
+    margin-left: auto;
+    color:white;
+    font-family:Montserrat;
+    letter-spacing:1px;
+    font-size:13px;
+    background-color: rgba(0,0,0,0.4);
+}
+.zonals-mainpage-parent-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 7vh;
+    height: 100%;
+}
+.zonals-mainpage-cards{
+    margin-top: 7%;
+    margin-bottom: auto;
+    border-radius: 3px;
+    width: 35%;
+    background: rgba(0,0,0,0.3);
+}
+.zonals-mainpage-cards-image-delhi{
+    background-image: url("../../beta/home/src/img/delhi2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+    border-radius: 3px;
+    opacity: 0.7;
+}
+.zonals-mainpage-cards-image-lucknow{
+    background-image: url("../../beta/home/src/img/lucknow2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: auto;
+    opacity: 0.7;
+}
+.zonals-mainpage-cards-image-bhopal{
+    background-image: url("../../beta/home/src/img/bhopal.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: auto;
+    opacity: 0.7;
+}
+.zonals-mainpage-cards-image-chandigarh{
+    background-image: url("../../beta/home/src/img/chandigarh.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: auto;
+    opacity: 0.7;
+}
+.zonals-mainpage-cards-image-jaipur{
+    background-image: url("../../beta/home/src/img/jaopur.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: auto;
+    opacity: 0.7;
+}
+.zonals-mainpage-cards-title{
+    padding: 20px;
+    font-family: Montserrat;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+.zonals-mainpage-cards-button{
+    padding: 0px 10px 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.zonals-mainpage-cards-button a{
+    padding: 12px 18px;
+    background: transparent;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.zonals-mainpage-cards-button a:hover{
+    background:white;
+    color: black;
+    border: 1px solid white;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+@media (max-width:768px){
+    .zonals-mainpage-parent
+    {
+        width: calc(100% - 56px);
+    }
+    .zonals-mainpage-parent-child{
+        display: flex;
+        flex-direction: column;
+    }
+    .zonals-mainpage-cards{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .zonals-mainpage-main-page
+    {
+        width: calc(100% - 56px);
+    }
+}
+@media (min-width:1400px){
+    .zonals-mainpage-cards{
+        margin-top: 17%;
+    }
+}

@@ -1,0 +1,141 @@
+.workshops-main-parent-div
+{
+    background-image: url(/static/media/trianglify.19e307ee.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 75.83vw;
+    margin-left: auto;
+    color: white;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-top:-17px;
+    font-family:Montserrat;
+}
+.workshops-description-child
+{
+    width:50%;
+    height:50%;
+    background-color:white;
+    color:black;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+}
+.workshops-description-child >img
+{
+    position:absolute;
+    top:9px;
+    right:14px;
+    width:20px;
+    height:20px;
+    cursor:pointer;
+}
+.workshops-flex-one
+{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.workshops-parent-child
+{
+    margin:12px;
+    cursor:pointer;
+    width:55vh;
+}
+.workshops-heading-main
+{
+    color:black;
+    text-align:center;
+    margin-bottom:0px;
+}
+.workshops-main-child-one
+{
+    width:100%;
+    overflow:hidden;
+}
+.workshops-main-child-two
+{
+    width:100%;
+    overflow:hidden;
+}
+.workshops-main-child-one >img
+{
+    height:31vh;
+    width:100%;
+    object-fit: cover;
+    cursor:pointer; 
+}
+.workshops-container-one
+{
+    background: #8080809e;
+    opacity: 40%;
+    color: black;
+    font-size: 16px;
+    padding: 2px 16px;
+}
+.workshops-description-one
+{  
+     position:fixed;
+     background-color:#000000b8;
+     width:75.83vw;
+     height:100%;
+     color:black;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+}
+.workshops-cards-display
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.paynow-button-workshops
+{
+    bottom:20px;
+    padding: 10px 25px;
+    background: #0000007a;
+    color: white;
+    text-decoration:none;
+    margin-bottom:14px;
+}
+.description-workshops
+{
+    font-size: 15px;
+    width: 90%;
+    overflow: auto;
+    font-family: Mont;
+    margin-top:50px;
+}
+.workshops-price-card
+{
+    color:gold;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media only screen and (max-width:768px)
+{
+    .workshops-parent-child
+    {
+        width:75%;
+    }
+    .workshops-main-parent-div
+    {
+        width:calc(100% - 56px)
+    }
+    .workshops-description-one
+    {  
+        width:calc(100% - 56px)
+    }
+    .workshops-description-child
+    {
+        width:93%;
+        height:36%;
+    }
+}

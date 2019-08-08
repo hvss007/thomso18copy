@@ -1,0 +1,51 @@
+.ngo-parent{
+    background-image: url("../img/ngo.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.ngo-parent{
+    position: relative;
+}
+.ngo-child-one h3{
+    margin: 0;
+    width: fit-content;
+    padding: 65vh 0px 0px 44px;
+    font-size: 50px;
+    color: white;
+    font-family: Poppins;
+}
+.ngo-child-one h3::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 5px;
+    width: 30%;
+}
+.ngo-card-import-parent
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.ngo-card-top-content
+{
+    width: 80%;
+    font-family: Montserrat;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 2560px)
+{
+    .ngo-child-one h3
+    {
+        margin: 0;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 40vh 0px 0px 26px;
+        font-size: 50px;
+        color: white;
+        font-family: Poppins;
+    }
+}

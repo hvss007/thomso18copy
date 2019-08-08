@@ -1,0 +1,57 @@
+{"_id":{"$oid":"5b8452c71715f612ef419298"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"1_1","name":"Foot Loose","__v":0}
+{"_id":{"$oid":"5b8452f71715f612ef419299"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"1_2","name":"Step Up","__v":0}
+{"_id":{"$oid":"5b8453241715f612ef41929a"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"1_3","name":"Flash Mob","__v":0}
+{"_id":{"$oid":"5b84533c1715f612ef41929b"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"2_1","name":"Abhivyakti","__v":0}
+{"_id":{"$oid":"5b8453531715f612ef41929c"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"2_2","name":"Nukkad Natak","__v":0}
+{"_id":{"$oid":"5b8453a11715f612ef41929d"},"isPrimary":false,"users":[],"event_id":"3_2","name":"Campus Clicks","__v":0}
+{"_id":{"$oid":"5b8453be1715f612ef41929e"},"isPrimary":false,"users":[],"event_id":"3_1","name":"Quizardry","__v":0}
+{"_id":{"$oid":"5b8453c71715f612ef41929f"},"isPrimary":false,"users":[],"event_id":"3_3","name":"Silhouette","__v":0}
+{"_id":{"$oid":"5b8453d81715f612ef4192a0"},"isPrimary":false,"users":[],"event_id":"3_4","name":"Online Mr. \u0026 Ms. Thomso","__v":0}
+{"_id":{"$oid":"5b8453e31715f612ef4192a1"},"isPrimary":false,"users":[],"event_id":"3_5","name":"May May","__v":0}
+{"_id":{"$oid":"5b8453ee1715f612ef4192a2"},"isPrimary":false,"users":[],"event_id":"3_6","name":"Expressions","__v":0}
+{"_id":{"$oid":"5b84542c1715f612ef4192a3"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"4_1","name":"Battle of Bands","__v":0}
+{"_id":{"$oid":"5b84543e1715f612ef4192a4"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"4_2","name":"Sargam","__v":0}
+{"_id":{"$oid":"5b84545a1715f612ef4192a5"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"5_1","name":"Thomso's Got Talent","__v":0}
+{"_id":{"$oid":"5b84547e1715f612ef4192a6"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"5_2","name":"Seiger","__v":0}
+{"_id":{"$oid":"5b84548d1715f612ef4192a7"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"5_3","name":"Street Soccer","__v":0}
+{"_id":{"$oid":"5b8454991715f612ef4192a8"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"5_4","name":"Scavenger Hunt","__v":0}
+{"_id":{"$oid":"5b8454a71715f612ef4192a9"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"6_1","name":"16 Frames","__v":0}
+{"_id":{"$oid":"5b8454b41715f612ef4192aa"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"6_2","name":"Box Office","__v":0}
+{"_id":{"$oid":"5b8454c41715f612ef4192ab"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"7_1","name":"Campus Diva","__v":0}
+{"_id":{"$oid":"5b8454d01715f612ef4192ac"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"7_2","name":"Mr \u0026 Ms Thomso","__v":0}
+{"_id":{"$oid":"5b8454dc1715f612ef4192ad"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"7_3","name":"Vogue","__v":0}
+{"_id":{"$oid":"5b8454ec1715f612ef4192ae"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"8_1","name":"Apocalypse","__v":0}
+{"_id":{"$oid":"5b8454f61715f612ef4192af"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"8_2","name":"Queen's Gambit","__v":0}
+{"_id":{"$oid":"5b8455031715f612ef4192b0"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"8_3","name":"Snooker Elite","__v":0}
+{"_id":{"$oid":"5b8455171715f612ef4192b1"},"isPrimary":false,"users":[],"event_id":"9_1","name":"Paintball","__v":0}
+{"_id":{"$oid":"5b84551f1715f612ef4192b2"},"isPrimary":false,"users":[],"event_id":"9_2","name":"Body Zorbing","__v":0}
+{"_id":{"$oid":"5b84552b1715f612ef4192b3"},"isPrimary":false,"users":[],"event_id":"9_3","name":"Human foosball","__v":0}
+{"_id":{"$oid":"5b8455351715f612ef4192b4"},"isPrimary":false,"users":[],"event_id":"9_4","name":"The Boulevard Games","__v":0}
+{"_id":{"$oid":"5b84554b1715f612ef4192b5"},"isPrimary":false,"users":[],"event_id":"9_5","name":"Photo Booth","__v":0}
+{"_id":{"$oid":"5b8455591715f612ef4192b6"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"10_1","name":"Art Talkies","__v":0}
+{"_id":{"$oid":"5b8455621715f612ef4192b7"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"10_2","name":"Naqaab","__v":0}
+{"_id":{"$oid":"5b84556b1715f612ef4192b8"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"10_3","name":"Paint Fiesta","__v":0}
+{"_id":{"$oid":"5b8455741715f612ef4192b9"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"10_4","name":"Costume Design","__v":0}
+{"_id":{"$oid":"5b8455fc1715f612ef4192bb"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"10_5","name":"Junkyard","__v":0}
+{"_id":{"$oid":"5b8456091715f612ef4192bc"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"11_1","name":"Literati","__v":0}
+{"_id":{"$oid":"5b84562b1715f612ef4192bd"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"11_2","name":"Spin A yarn","__v":0}
+{"_id":{"$oid":"5b8456341715f612ef4192be"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"11_3","name":"Open Mic","__v":0}
+{"_id":{"$oid":"5b8456401715f612ef4192bf"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"11_4","name":"Book Pitching","__v":0}
+{"_id":{"$oid":"5b8456491715f612ef4192c0"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"11_5","name":"Desi Twist","__v":0}
+{"_id":{"$oid":"5b8456931715f612ef4192c1"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"11_6","name":"Kavi Sammelan","__v":0}
+{"_id":{"$oid":"5b84569b1715f612ef4192c2"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"11_7","name":"Slam Poetry","__v":0}
+{"_id":{"$oid":"5b8456a41715f612ef4192c3"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"11_8","name":"Parliamentary Debate","__v":0}
+{"_id":{"$oid":"5b8456af1715f612ef4192c4"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"11_9","name":"Model United Nations","__v":0}
+{"_id":{"$oid":"5b8456be1715f612ef4192c5"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"12_1","name":"Auction frenzy","__v":0}
+{"_id":{"$oid":"5b8456c71715f612ef4192c6"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"12_2","name":"Corporata","__v":0}
+{"_id":{"$oid":"5b8456ce1715f612ef4192c7"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"12_3","name":"Mark Sense","__v":0}
+{"_id":{"$oid":"5b8456df1715f612ef4192c9"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"12_5","name":"A(D)ESIGN","__v":0}
+{"_id":{"$oid":"5b8456e81715f612ef4192ca"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"12_6","name":"Cognet Wheelhouses","__v":0}
+{"_id":{"$oid":"5b8456f11715f612ef4192cb"},"isPrimary":false,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"12_4","name":"Negotium Consillium","__v":0}
+{"_id":{"$oid":"5b8456fd1715f612ef4192cc"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"13_1","name":"Quriosity","__v":0}
+{"_id":{"$oid":"5b8457061715f612ef4192cd"},"isPrimary":true,"users":[{"$oid":"5b7f23d9544c4758871bcd6b"}],"event_id":"13_2","name":"Telly Sporcle","__v":0}
+{"_id":{"$oid":"5b8457f31715f612ef4192d2"},"isPrimary":false,"users":[],"event_id":"14_1","name":"Silent DJ","__v":0}
+{"_id":{"$oid":"5b8457fc1715f612ef4192d3"},"isPrimary":false,"users":[],"event_id":"14_2","name":"Nightlife Cafe","__v":0}
+{"_id":{"$oid":"5b8458081715f612ef4192d4"},"isPrimary":true,"users":[],"event_id":"15_1","name":"Food Fiesta","__v":0}
+{"_id":{"$oid":"5b845a561715f612ef4192d5"},"isPrimary":true,"users":[],"event_id":"lit fest","name":"Lit Fest","__v":0}
+{"_id":{"$oid":"5b845b5f1715f612ef4192d6"},"isPrimary":true,"users":[],"event_id":"informals","name":"Informals (Other)","__v":0}

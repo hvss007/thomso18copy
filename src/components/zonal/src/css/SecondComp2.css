@@ -1,0 +1,40 @@
+.zonal-common-comp2-head
+{ 
+  background:#164851d4;
+  padding:20px;
+  width:10vw;
+  height:10vh; 
+  box-shadow:0px 1px 1px 3px #164851;
+  color:white;
+}
+.zonal-common-comp2-head:hover
+{
+    background:#164851;
+    transition:background 0.5s;
+}
+.zonals-comp2-inside
+{
+  display:flex;
+  justify-content:center;
+  margin-top:auto;
+  height:100%;
+  align-items:center;
+}
+.zonals-comp-border
+{
+   background:#164851;
+   border:2px solid white;
+}
+@media only screen and (max-width:768px)
+{
+   .zonal-common-comp2-head
+   {
+      width:5vw;
+      height:1vh;
+   }
+   .zonals-comp2-inside
+   {
+     font-size:8px;
+     text-align:center;
+   } 
+}

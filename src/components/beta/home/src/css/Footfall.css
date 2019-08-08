@@ -1,0 +1,128 @@
+.beta-footfall-aboveImage
+{
+    position:absolute;
+    top: -4vh;
+    left: 8%;
+    width: 166px;
+    opacity: 0.5;
+}
+.beta-footfall-downImage
+{
+    position:absolute;
+    bottom: -4vh;
+    left: 8%;
+    width: 166px;
+    opacity: 0.5;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(180deg);
+}
+.beta-main-footfall
+{
+    margin-top:34vh;
+    vertical-align:center;
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-family:Montserrat;
+}
+.beta-footfall-box
+{
+    position:relative;
+    padding:20px;
+    color:white;
+    background:rgba(255,255,255,0.1);
+    margin:36px;
+    font-size:24px;
+    width: 155px;
+    height: 89px;
+    text-align:center;
+    border-radius:10px;
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+.beta-footfall-first
+{
+    font-size:40px;
+}
+.beta-footfall-second
+{
+    font-size:15px;
+}
+@media only screen and (max-width: 768px) {
+    .beta-main-footfall
+    {
+        flex-direction:column;
+        margin-top:13vh;
+    }
+    .beta-footfall-box
+    {
+        margin:13px;
+        height:70px;
+        width:25vw;
+    }
+    .beta-footfall-hide
+    {
+        display:none;
+    }
+    .beta-footfall-aboveImage
+    {
+        top: -3vh;
+        width:106px;
+    }
+    .beta-footfall-downImage
+    {
+        width:106px;
+        bottom:-3vh;
+    }
+    .beta-footfall-first
+    {
+       font-size:29px;
+    }
+    .beta-footfall-second
+    {
+       font-size:12px;
+    }
+}
+@media (min-width: 1920px) and (max-width: 2560px)
+{
+    .beta-footfall-box
+    {
+        padding:20px;
+        margin:40px;
+        font-size:40px;
+        width: 280px;
+        height: 144px;
+        border-radius:10px;
+    }
+    .beta-footfall-first
+    {
+        font-size: 50px;
+        font-family:Montserrat;
+    }
+    .beta-footfall-second
+    {
+        font-size:20px;
+        font-family:Montserrat;
+
+    }
+    .beta-footfall-aboveImage
+    {
+        width: 289px;
+        top: -5vh;
+        left: 6%;
+    }
+    .beta-footfall-downImage
+    {
+        width:290px;
+        bottom:-5.5vh;
+        left:4%;
+    }
+    .beta-main-footfall
+    {
+       margin-top:36vh;
+    }
+}

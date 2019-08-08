@@ -1,0 +1,14 @@
+.whythomso-slider-leftarrow{
+    color: white;
+    width: fit-content;
+}
+.whythomso-slider-leftarrow:hover{
+    cursor: pointer;
+}
+.whythomso-slider-rightarrow{
+    color: white;
+    width: fit-content;
+}
+.whythomso-slider-rightarrow:hover{
+    cursor: pointer;
+}

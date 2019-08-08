@@ -1,0 +1,936 @@
+
+.whythomso-parent{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #e8e6e9;
+}
+.whythomso-child{
+    background-image: url("../src/images/whythomso.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.whythomso-child-whythomso{
+    position: relative;
+}
+.whythomso-child-whythomso h3{
+    margin: 0;
+    width: fit-content;
+    padding: 65vh 0px 0px 44px;
+    font-size: 50px;
+    color: white;
+    font-family: Poppins;
+}
+.whythomso-child-whythomso h3::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 5px;
+    width: 30%;
+}
+.whythomso-text{
+    height: 20vh;
+    background: #e8e6e9;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.whythomso-text p{
+    font-family: Poppins;
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 5vh;
+}
+.whythomso-second-child{
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+.whythomso-second-child-top{
+    height: 24vh;
+    background-image:url("../src/images/attraction.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.whythomso-second-child-attractions h3{
+    margin: 0;
+    width: fit-content;
+    padding: 15vh 0px 0px 44px;
+    font-size: 30px;
+    color: white;
+    font-family: Poppins;
+}
+.whythomso-second-child-middle{
+    background-color: #e8e6e9;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.whythomso-second-child-the-institute{
+    height: fit-content;
+    width: 20%;
+}
+.whythomso-second-child-the-legacy{
+    height: fit-content;
+    width: 20%;
+}
+.whythomso-second-child-the-nightmare{
+    height: fit-content;
+    width: 20%;
+}
+.whythomso-second-child-the-institute{
+    margin-top: 50px;
+}
+.whythomso-second-child-the-institute-image{
+    height: 150px;
+    width: auto;
+}
+.whythomso-second-child-the-institute-content-heading h3{
+    margin: 0;
+    padding-top: 15px;
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    font-family: Poppins;
+}
+.whythomso-second-child-the-institute-content-heading h3::after{
+    content:"";
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 50%;
+}
+.whythomso-second-child-the-institute-content-content p{
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.whythomso-second-child-the-legacy{
+    margin-top: 50px;
+}
+.whythomso-second-child-the-legacy-image{
+    height: 150px;
+    width: auto;
+    background-image:url("../src/images/thomsobuild.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.whythomso-second-child-the-legacy-content-heading h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    font-weight: 600;
+    width: fit-content;
+    font-size: 24px;
+    color: black;
+    font-family: Poppins;
+}
+.whythomso-second-child-the-legacy-content-heading h3::after{
+    content:"";
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 50%;
+}
+.whythomso-second-child-the-legacy-content-content p{
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.whythomso-second-child-the-nightmare{
+    margin-top: 50px;
+}
+.whythomso-second-child-the-nightmare-image{
+    height: 150px;
+    width: auto;
+    background-image:url("../src/images/events.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.whythomso-second-child-the-nightmare-content-heading h3{
+    margin: 0;
+    width: fit-content;
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 24px;
+    color: black;
+    font-family: Poppins;
+}
+.whythomso-second-child-the-nightmare-content-heading h3::after{
+    content:"";
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 50%;
+}
+.whythomso-second-child-the-nightmare-content-content p{
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.whythomso-second-child-the-dots{
+    width: 10%;
+}
+.whythomso-third-child{
+    width: 100vw;
+    height: 100vh;
+}
+.whythomso-third-child-top{
+    height: 24vh;
+    background-image:url("../src/images/review.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.whythomso-third-child-review h3{
+    margin: 0;
+    width: fit-content;
+    padding: 15vh 0px 0px 44px;
+    font-size: 30px;
+    color: white;
+    font-family: Poppins;
+}
+.whythomso-third-child-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    background-color: #e8e6e9;
+}
+.whythomso-third-child-sliderwrapper{
+    padding-top: 20px;
+    width:90%;
+}
+.whythomso-third-child-slider{
+    display: flex;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+.translate-left{
+    transform:translateX(00px);
+    transition: transform ease-out 0.5s;
+}
+.translate-right{
+    transform:translateX(-600px);
+    transition: transform ease-out 0.5s;
+}
+.whythomso-third-child-iit-content-heading h3{
+    margin: 0;
+    width: fit-content;
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 24px;
+    color: black;
+    font-family: Poppins;
+}
+.cards-slider-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 100%;
+}
+.whythomso-third-child-iit-content-heading h3::after{
+    content:"";
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 50%;
+}
+.whythomso-third-child-iit-content-content p{
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.whythomso-fourth-child{
+    width: 100vw;
+}
+.whythomso-fourth-child-top{
+    height: 24vh;
+    background-image:url("../src/images/blogs.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.whythomso-fourth-child-blogs h3{
+    margin: 0;
+    width: fit-content;
+    padding: 15vh 0px 0px 44px;
+    font-size: 30px;
+    color: white;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e8e6e9;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.whythomso-fourth-child-recent-heading{
+    background-color: #e8e6e9;
+}
+.whythomso-fourth-child-recent-heading h3{
+    margin: 0;
+    padding: 2vh 0px 0px 70px;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 400;   
+    color: black;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-recent-heading h3::after{
+    content:"";
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 50%;
+}
+.whythomso-fourth-child-the-nightmare{
+    width:25%;
+}
+.whythomso-fourth-child-the-daymare{
+    width:25%;
+    margin-top: 30px;
+}
+.whythomso-fourth-child-the-evemare{
+    width:25%;
+    margin-top: 30px;
+}
+.whythomso-fourth-child-the-nightmare{
+    margin-top: 30px;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+.whythomso-fourth-child-the-nightmare-image{
+    height: 200px;
+    width: auto;
+    background-image:url("../../beta/blog/blog1/image/thomsoblog.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.whythomso-fourth-child-the-nightmare-image-karvaan{
+    height: 200px;
+    width: auto;
+    background-image:url("../src/images/karvaan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.whythomso-fourth-child-the-nightmare-content-heading h3{
+    margin: 0;
+    width: fit-content;
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 20px;
+    color: black;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-the-nightmare-content-heading a{
+    text-decoration: none;
+}
+.whythomso-fourth-child-the-nightmare-content-content p{
+    margin: 0;
+    padding-top: 15px;
+    text-align: justify;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-the-nightmare-date h3{
+    margin: 0;
+    width: fit-content;
+    font-weight: 600;
+    padding-top: 5px;
+    font-size: 16px;
+    color: black;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-the-nightmare-date h3::after{
+    content:"";
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 140%;
+}
+.whythomso-fourth-child-the-daymare{
+    margin-top: 30px;
+
+    height: fit-content;
+}
+.whythomso-fourth-child-the-daymare-image{
+    height: 200px;
+    width: auto;
+    background-image:url("../src/images/litfest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.whythomso-fourth-child-the-daymare-content-heading h3{
+    margin: 0;
+    width: fit-content;
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 20px;
+    color: black;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-the-daymare-content-heading a{
+    text-decoration: none;
+}
+.whythomso-fourth-child-the-daymare-content-content p{
+    margin: 0;
+    padding-top: 15px;
+    text-align: justify;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-the-daymare-date h3{
+    margin: 0;
+    width: fit-content;
+    font-weight: 600;
+    padding-top: 5px;
+    font-size: 16px;
+    color: black;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-the-daymare-date h3::after{
+    content:"";
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 140%;
+}
+.whythomso-fourth-child-the-evemare{
+    margin-top: 30px;
+
+    height: fit-content;
+}
+.whythomso-fourth-child-the-evemare-image{
+    height: 200px;
+    width: auto;
+    background-image:url("../../whyThomso/src/images/social.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.whythomso-fourth-child-the-eve-image{
+    height: 200px;
+    width: auto;
+    background-image:url("../../whyThomso/src/images/recent.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.whythomso-fourth-child-the-evemare-content-heading h3{
+    margin: 0;
+    width: fit-content;
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 20px;
+    color: black;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-the-evemare-content-content p{
+    margin: 0;
+    padding-top: 15px;
+    text-align: justify;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-the-evemare-content-heading a{
+    text-decoration: none;
+}
+.whythomso-fourth-child-the-evemare-date h3{
+    margin: 0;
+    width: fit-content;
+    font-weight: 600;
+    padding-top: 5px;
+    font-size: 16px;
+    color: black;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-the-evemare-date h3::after{
+    content:"";
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 140%;
+}
+.whythomso-fourth-child-viewall{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #e8e6e9;
+}
+.whythomso-fourth-child-viewall a{
+    background: black;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Poppins;
+}
+.whythomso-fourth-child-viewall a span{
+    margin-top: 5px;
+    padding:10px 5px 0px 10px;
+}
+.whythomso-fifth-child{
+    width: 100vw;
+    height: 100%;
+}
+.whythomso-fifth-child-top{
+    height: 24vh;
+    background-image:url("../src/images/artists.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.whythomso-fifth-child-previous h3{
+    margin: 0;
+    width: fit-content;
+    padding: 15vh 0px 0px 44px;
+    font-size: 30px;
+    color: white;
+    font-family: Poppins;
+}
+.whythomso-fifth-child-middle-parent{
+    display: flex;
+    flex-direction: column;
+}
+.whythomso-fifth-child-middle{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.whythomso-fifth-child-artist{
+    width: 18%;
+    margin-top: 10px;
+}
+.whythomso-fifth-child-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+}
+.whythomso-fifth-child-name{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.whythomso-fifth-child-view-more-less{
+    width: 96.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.whythomso-fifth-child-view-more-less p{
+    border: 2px solid black;
+    cursor: pointer;
+    background: black;
+    padding: 5px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 4px;
+}
+.whythomso-sixth-child{
+    margin-top: 0px;
+    width: 100vw;
+    height: 100%;
+}
+.whythomso-sixth-child-top{
+    height: 24vh;
+    background-image:url("../src/images/previous.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.whythomso-sixth-child-faq h3{
+    margin: 0;
+    width: fit-content;
+    padding: 15vh 0px 0px 44px;
+    font-size: 30px;
+    color: white;
+    font-family: Poppins;
+}
+.whythomso-sixth-child-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.whythomso-sixth-child-middle-columnone{
+    width: 25%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.whythomso-faqs-ansque-one{
+    /* height: 38vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-height{
+    min-height: fit-content;
+}
+.whythomso-faqs-ansque-two{
+    /* height: 22vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-three{
+    /* height: 32vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-four{
+    /* height: 35.5vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-fifth{
+    /* height: 31vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-sixth{
+    /* height: 30vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-question{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.whythomso-faqs-question span{
+    padding: 0px 5px;
+}
+.whythomso-faqs-question span:nth-child(1){
+    width:5%;
+    height: 100%;
+}
+.whythomso-faqs-question span:nth-child(2){
+    width: 95%;
+}
+.whythomso-faqs-answer{
+    display: flex;
+    flex-direction: row;
+    overflow-wrap: break-word;
+    padding: 10px;
+}
+.whythomso-faqs-answer span{
+    padding: 0px 5px;
+}
+.whythomso-faqs-answer span:nth-child(1){
+    width:5%;
+    height: 100%;
+}
+.whythomso-faqs-answer span:nth-child(2){
+    width: 95%;
+    overflow-wrap: break-word;
+}
+.whythomso-sixth-child-middle-columntwo{
+    width: 25%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.whythomso-faqs-ansque-columntwo-one{
+    height: 20vh;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-columntwo-one-new{
+    height: 30vh;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-columntwo-two{
+    /* height: 35vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-columntwo-three{
+    /* height: 110vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-columntwo-four{
+    /* height: 36vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-sixth-child-middle-columnthree{
+    width: 25%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.whythomso-faqs-ansque-columnthree-one{
+    /* height: 57vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-columnthree-two{
+    /* height: 39vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-columnthree-three{
+    /* height: 22vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-columnthree-four{
+    /* height: 43vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-columnthree-fifth{
+    /* height: 46vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-columnthree-seventh{
+    /* height: 46vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-faqs-ansque-columnthree-sixth{
+    /* height: 46vh; */
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.whythomso-sixth-child a{
+    text-decoration: none;
+}
+@media only screen and (max-width:768px){
+    .whythomso-second-child{
+        margin-top: 10px;
+        width: 100vw;
+        height: 100%;
+    }
+    .whythomso-second-child-middle{
+        background-color: #e8e6e9;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .whythomso-second-child-the-institute{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .whythomso-second-child-the-legacy{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .whythomso-second-child-the-nightmare{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .cards-slider-wrapper iframe{
+        width: 100%;
+    }
+    .whythomso-fourth-child-middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .whythomso-fourth-child{
+        height: 100%;
+    }
+    .whythomso-fourth-child-the-nightmare{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: fit-content;
+    }
+    .whythomso-fourth-child-the-daymare{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: fit-content;
+    }
+    .whythomso-fifth-child-artist{
+        width: 90%;
+    }
+    .whythomso-text{
+        height: 100%;
+        background: #e8e6e9;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cards-slider-wrapper{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;                                                                                                                                            width: 100%;
+    }
+    .cards-slider-wrapper iframe{
+        padding: 10px 0px;
+    }
+    .whythomso-third-child{
+        height: 100%;
+    }
+    .whythomso-third-child-sliderwrapper{
+        padding: 5px 0px;
+    }
+    .whythomso-child-whythomso h3 {
+        margin: 0;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 40vh 0px 0px 26px;
+        font-size: 50px;
+        color: white;
+        font-family: Poppins;
+    }
+    .whythomso-sixth-child-middle{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .whythomso-sixth-child-middle-columnone{
+        width: 100%;
+    }
+    .whythomso-sixth-child-middle-columntwo{
+        width: 100%;
+    }
+    .whythomso-sixth-child-middle-columnthree{
+        width: 100%;
+    }
+    .whythomso-fourth-child-the-evemare{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,159 @@
+
+ .Notification-div-O:before {
+    left: 13px;
+    top: -5px;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.3);
+    box-shadow: 0 0 1px rgba(0,0,0,0.3);
+    z-index: -1;
+}
+.Notifications-button {
+        font-size: 100%;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        -webkit-box-shadow: 0 2px 1px rgba(0,0,0,.1);
+        box-shadow: 0 2px 1px rgba(0,0,0,.1);
+        background-color: #fff;
+        padding: 3px 7px!important;
+        display: inline-block;
+        margin-left: 8px!important;
+        cursor: pointer;
+    }
+.Notification-div-A{
+    margin-left: 156px;
+    }
+
+
+.Notification-div-O{
+  -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    width: 280px;
+    height: 83.578px;
+    padding: 12px;
+    background-color: white;
+    -webkit-box-shadow: 0 1px 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.3);
+    border-radius: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    top: 1%;
+    left: 6%;
+    z-index: 1000;
+}
+ .Notification-div-O .Notification-div-S {
+    display: none;
+}
+
+ .Notification-div-O .Notification-div-C {
+    width: 100%;
+    padding-top: 12px;
+    margin-top: -12px;
+    background-color: white;
+}
+
+ .Notification-div-O .Notification-div-C .Notification-div-T {
+    padding-right: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    overflow: hidden;
+}
+ .Notification-div-O .Notification-div-C .Notification-div-A {
+    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+ .Notification-div-O .Notification-div-C .Notification-div-T h1 {
+    cursor: default;
+    font-size: 15px;
+    margin-bottom: .6em;
+    line-height: 1.2;
+    font-weight: normal;
+    margin: 0px;
+}
+
+ .Notification-div-O .Notification-div-C .Notification-div-T p {
+    cursor: default;
+    font-size: 12px;
+    color: black;
+    text-align: left;
+    margin-bottom: 1.4em;
+    min-height: 1.2em;
+}
+
+ .Notification-div-O .Notification-div-C .Notification-div-T p:before {
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    position: relative;
+    top: 4px;
+    background-size: contain;
+    margin: 0 8px;
+    background-repeat: no-repeat;
+    content: "";
+    fill: #aaa;
+    background-image: url(./bell.png);
+}
+ .Notification-div-O .Notification-div-C .Notification-div-A button {
+    padding: .2em .4em;
+    height: auto;
+    width: auto;
+}
+
+ .Notification-div-O .Notification-div-C .Notification-div-A button {
+    border: 1px solid #aaa;
+    cursor: pointer;
+    font-size: 1em;
+    font-size: 12px;
+    border-radius: 2px;
+    display: inline-block;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-left: 5px;
+    background-color: #fbfbfb;
+    font-weight: 600;
+    -webkit-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+    cursor: default;
+}
+@media only screen and (max-width:768px)
+{
+  .Notification-div-O{
+    width: 255px;
+  }
+}
+@media only screen and (min-width:1920px) and (max-width:2560px)
+{
+  .Notification-div-O{
+    width: 300px;
+    height: 100px;
+  }
+}

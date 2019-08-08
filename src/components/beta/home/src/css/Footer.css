@@ -1,0 +1,254 @@
+.quizardy-footer{
+  display: flex;
+  flex-direction: row;
+}
+.beta-footer-thomso, .common-cursor, .daysleft, .common-cursor, .beta-footer-follow, .common-cursor
+{
+    color: white;
+    font-family: arial;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.beta-footer-main
+{
+    color:white;
+    font-family: 'Montserrat';
+    letter-spacing:1px;
+    overflow-x:hidden;
+    position:fixed;
+    height:20vh;
+    width: 100%;
+    top: 88vh;
+    height: 15vh;
+}
+.beta-footer-countdown
+{
+    text-align:center;
+    position:absolute;
+    top:0;
+    left:4vw;
+    margin-left: 40px;
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+.beta-footer-days
+{
+    font-size:25px;
+}
+.beta-footer-left
+{
+    font-size:12px;
+}
+.beta-footer-icons
+{
+    width:20%;
+    float:right;
+    position: absolute;
+    right: 4vw;
+    top: 0;
+    user-select:none;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+.beta-footer-iconsImage
+{
+    width:40px;
+    height:40px;
+}
+.beta-footer-mainIcons
+{
+    margin-top:2px;
+    display:inline-flex;
+}
+.beta-footer-follow
+{
+    text-align:left;
+    width: 22%;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.beta-footer-fbdiv, .beta-footer-ytdiv , .beta-footer-instadiv , .beta-footer-linkediv
+{
+    width:40px;
+    height:40px;
+    margin-left:10px;
+    border-radius:50%;
+    transition: 0.5s;
+}
+.common-cursor{
+  cursor : default;
+  user-select:none;
+  -webkit-user-select: none;
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+}
+@media screen and (min-width: 768px)
+{
+    .beta-footer-fbdiv:hover,.beta-footer-ytdiv:hover,.beta-footer-instadiv:hover,.beta-footer-linkediv:hover
+    {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Safari 3-8 */
+        transform: rotate(360deg);
+    }
+    .beta-footer-fbdiv:hover
+    {
+        background:#3b5998;
+    }
+    .beta-footer-ytdiv:hover
+    {
+        background:#ff0000;
+    }
+    .beta-footer-instadiv:hover
+    {
+        background:#c32aa3;
+    }
+    .beta-footer-linkediv:hover
+    {
+        background:#007bb5;
+    }
+    .common-cursor{
+      cursor : default;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .beta-footer-main
+    {
+        color:white;
+        font-family: 'Montserrat';
+        letter-spacing:1px;
+        overflow-x:hidden;
+        position:fixed;
+        height:20vh;
+        width: 100%;
+        top: 83vh;
+        height: 13vh;
+    }
+    .beta-footer-countdown
+    {
+        text-align:center;
+        position:absolute;
+        top:0;
+        left:-1vw;
+        margin-left: 40px;
+    }
+    .beta-footer-days
+    {
+        font-size:22px;
+    }
+    .beta-footer-left
+    {
+        font-size:15px;
+    }
+    .beta-footer-icons
+    {
+        width:38%;
+        float:right;
+        position: absolute;
+        right: 4vw;
+        top: 0;
+    }
+    .beta-footer-iconsImage
+    {
+        width:32px;
+        height:32px;
+    }
+    .beta-footer-mainIcons
+    {
+        margin-top:2px;
+        display:inline-flex;
+    }
+    .beta-footer-follow
+    {
+        font-size:0px;
+        text-align:left;
+        margin-left:10px;
+    }
+    .beta-footer-fbdiv:hover
+    {
+        background:blue;
+    }
+    .beta-footer-ytdiv:hover
+    {
+        background:red;
+    }
+    .beta-footer-instadiv:hover
+    {
+        background:pink;
+    }
+    .beta-footer-linkedin:hover
+    {
+        background:lightblue;
+    }
+    .beta-footer-fbdiv, .beta-footer-ytdiv , .beta-footer-instadiv , .beta-footer-linkediv
+    {
+        width:32px;
+        height:32px;
+        margin-left:2px;
+        border-radius:50%;
+    }
+    .beta-footer-thomso
+    {
+        font-size:0px;
+    }
+    .common-cursor{
+      cursor : default;
+    }
+}
+@media (min-width: 1920px) and (max-width: 2560px)
+{
+    .beta-footer-thomso
+    {
+        font-size:20px;
+        font-family:Montserrat;
+    }
+    .beta-footer-days
+    {
+        font-size:24px;
+        font-family:Montserrat;
+    }
+    .beta-footer-left
+    {
+        font-size:18px;
+        font-family:Montserrat;
+    }
+    .beta-footer-main
+    {
+        top:86vh;
+        font-family:Montserrat;
+        user-select:none;
+        -webkit-user-select: none;
+        -moz-user-select: none; 
+        -ms-user-select: none; 
+    }
+    .beta-footer-follow
+    {
+        font-size:20px;
+        font-family:Montserrat;
+    }
+    .beta-footer-iconsImage
+    {
+        width:50px;
+        height:50px;
+    }
+    .beta-footer-fbdiv, .beta-footer-ytdiv , .beta-footer-instadiv , .beta-footer-linkediv
+    {
+        width:50px;
+        height:50px;
+        margin-left:15px;
+        borderradius:50%;
+    }
+    .beta-footer-mainIcons
+    {
+       margin-top:6px;
+    }
+    .common-cursor{
+      cursor : default;
+    }
+
+    
+}

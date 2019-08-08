@@ -1,0 +1,236 @@
+.zonals-lucknow-bird1
+{
+    width:40px;
+    height:40px;
+    position :absolute;
+    animation: mymove1 15s infinite;
+}
+.zonals-lucknow-bird2
+{
+    width:40px;
+    height:40px;
+    position :absolute;
+    animation: mymove2 15s infinite;
+}
+.zonals-lucknow-bird3
+{
+    width:40px;
+    height:40px;
+    position :absolute;
+    animation: mymove3 15s infinite;
+}
+.zonals-lucknow-bird4
+{
+    width:40px;
+    height:40px;
+    position :absolute;
+    animation: mymove4 15s infinite;
+}
+@-webkit-keyframes mymove1 {
+    0% {right:-20vw; top:20vh;}
+    100% {right:120vw;top:20vh}
+}
+@-webkit-keyframes mymove2 {
+    0% {right:-50vw; top:10vh;}
+    100% {right:120vw;top:10vh}
+}
+/* @-webkit-keyframes mymove3 { */
+/*     0% {right:-50vw; top:-30vw;} */
+/*     100% {right:60vw;top:50vw} */
+/* } */
+/* @-webkit-keyframes mymove4 { */
+/*     0% {right:-50vw; top:0vw;} */
+/*     100% {right:60vw;top:50vw} */
+/* } */
+.zonals-parallax-layer1 , .zonals-parallax-layer2 ,.zonals-parallax-layer3, .zonals-parallax-layer4 , .zonals-parallax-layer5 ,.zonals-parallax-layer6,.zonals-parallax-layer7
+{
+   height:100vh;
+   width:100vw;
+}
+.zonals-parallax-layer1-main-child-lucknow
+{
+   display:flex;
+   justify-content:space-between;
+}
+.zonals-parallax-layer1-main-child ,.zonals-parallax-layer2-main-child,.zonals-parallax-layer3-main-lucknow-lucknow-lucknow-lucknow-lucknow-lucknow-lucknow-child ,.zonals-parallax-layer4-main-child ,.zonals-parallax-layer5-main-child,.zonals-parallax-layer6-main-child.zonals-parallax-layer7-main-child
+{
+    height:100vh;
+    width:100vw;
+}
+.zonals-parallax-layer1
+{
+    z-index:12;
+    cursor:pointer;
+}
+.zonals-lucknow-iitrlogo
+{
+    height:auto;
+    width:100%;
+    max-width:7vw;
+    position:absolute;
+    right:0;
+    padding:10px;
+}
+.zonals-parallax-layer2-main-child-lucknow
+{
+   display:flex;
+   justify-content:center;
+}
+.zonals-lucknow-gate
+{
+    height:auto;
+    width:60vw;
+    margin-top:12vh;
+}
+.parallax-layer1-child-lucknow
+{
+   position:absolute;
+   left:50%;
+   top:50%;
+}
+.parallax-layer3-child-lucknow
+{
+    position: absolute;
+    left: 54%;
+    top: 10%;
+}
+.parallax-layer4-child-lucknow
+{
+    position: absolute;
+    left: 25%;
+    top: 15%;
+}
+.parallax-layer5-child-lucknow
+{
+    position: absolute;
+    left: 39%;
+    top: -2%;
+}
+.parallax-layer6-child-lucknow
+{
+    position: absolute;
+    left: 60%;
+    top: 8%;
+}
+.parallax-layer7-child-lucknow
+{
+  position:absolute;
+  left:40%;
+  top:6%;
+}
+.main-zonals-div
+{
+   background-color:rgba(57, 125, 162, 0.9) ;
+   background-image:url('../img/backgroundEle.png');
+   background-size:100% 55%;
+   background-opacity:0.12;
+   background-position:center center;
+   background-attachment:fixed;
+   background-repeat:no-repeat;
+   position:relative;
+   height:100vh;
+   user-select:none;
+   -webkit-user-select: none;
+   -moz-user-select: none; 
+   -ms-user-select: none; 
+}
+.zonals-lucknow-side-logo
+{
+    max-width: 29%;
+    height: auto;
+    width: 9%;
+    cursor:pointer;
+    padding:8px;
+}
+.zonals-layer2-h1
+{
+   text-align:center;
+   color:white;
+}
+.zonals-layer7-arrowmove
+{
+   position:absolute;
+   top:90%;
+   z-index:2000;
+   cursor:pointer;
+}
+.zonals-parallax-layer7
+{
+  height:0;
+}
+.zonals-parallax-layer7-main-child-lucknow
+{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   cursor:pointer;
+}
+.zonals-layer7-downarrow
+{
+   cursor:pointer;
+}
+@media only screen and (max-width:768px)
+{
+    .zonals-lucknow-gate
+    {
+        max-width:90vw;
+        height:auto;
+        margin-top:11vh;
+    }
+    .zonals-lucknow-side-logo
+    {
+        width:50%;
+    }
+    .zonals-lucknow-iitrlogo
+    {
+       max-width:19vw;
+    }
+    .zonals-layer2-h1
+    {
+        font-size:24px;
+    }
+    .main-zonals-div
+    {
+        background-size:100% auto;
+    }
+    .zonals-cloud-one , .zonals-cloud-two, .zonals-cloud-three
+    {
+        height:34px;
+        width:auto;
+    }
+ .parallax-layer5-child-lucknow
+{
+   top:21%;
+}
+ .parallax-layer3-child-lucknow
+ {
+    top:32%; 
+    left:60%;
+ }
+ .parallax-layer4-child-lucknow
+ {
+     top:31%;
+     left:22%;
+ 
+ }
+.zonals-parallax-layer2-main-child-lucknow
+{
+
+     margin-top:18vh;
+}
+}
+@media only screen and (min-width:768px)
+{
+    .zonals-parallax-layer2-main-child-lucknow
+    {
+        align-items:center;
+    }
+}
+@media (min-width: 1920px) and (max-width: 2560px)
+{
+    .zonals-lucknow-gate
+    {
+       width:61vw;
+    }
+}
+

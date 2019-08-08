@@ -1,0 +1,486 @@
+.sponsors-responsive-image {
+    height: 100px;
+    width: 250px;
+}
+.sponsors-responsive-image.scoop {
+    height: 100px;
+    width: 100px;
+}
+.pronites_tag{
+    font-size: 1.5em;
+    text-align: center;
+    color: #0d0d0d;
+    letter-spacing: .06em;
+    margin: 0px 30px 0px 30px;
+    display: none
+}
+
+.slider_div{
+    margin-top: 80px;
+    width: 100%;
+}
+.slider_img {
+    height: 512px;
+    width: 100%;
+    padding: 0px 15px;
+}
+.slider_up{
+    overflow-y: hidden;
+}
+.asdsafsafd {
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.mySlides {display:none}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slider_rightDiv{
+    background-color: #fff;
+    height: 512px;
+   
+    margin-left: -1.5%;
+    position: relative
+}
+.slider_event_tag{
+    color:#000;
+    font-size: 3em;
+    line-height: 1em;
+    margin-top: 30px;
+    font-family: 'prashant';
+
+}
+.slider_event_content{
+    margin-top: 25px;
+    font-family: 'gaurav';
+    margin-top: 10px;
+    padding: 0 10px;
+    font-size: 1.4em;
+}
+
+.slider_sponsor_img{
+    float: right;
+    min-height: 80px;
+    width: 25%;
+    margin-top: 10px;
+    position: absolute;
+    top:400px;
+    left: 70%;
+}
+.slider_thomso16tag{
+    font-size: 16px;
+    position: absolute;
+    top: 455px;
+    left: 10%;
+    color: black;
+    font-family: gaurav;
+}
+
+
+.fade2 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 7s;
+  animation-name: fade;
+  animation-duration: 7s;
+}
+
+@-webkit-keyframes fade2 {
+    0%{ opacity:.4; }
+  10% {opacity: 1}
+  80% {opacity: 1}  
+  90% {opacity: .7}
+  100% {opacity: .4}  
+}
+
+@keyframes fade2 {
+    0%{ opacity:.4; }
+    10% {opacity: 1}
+    90% {opacity: 1}
+    100% {opacity: .4}  
+}
+.active {
+    background-color: #717171;
+  }
+
+.slider_leftArrow{
+    height: 45px;
+    width:30%;
+    margin-top: 300px;
+    margin-left: 70%;
+    text-align: center;
+    cursor: pointer
+}
+.slider_rightArrow{
+    height: 45px;
+    width:30%;
+    margin-top: 300px;
+    margin-right: 50%;
+    text-align: center;
+    cursor: pointer
+}
+.slider_marginBoth{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+@media (max-width: 1440px){
+    .sponsors-responsive-image{
+        height: 50px;
+        width: 125px;
+    }
+    .sponsors-responsive-image.scoop {
+        height: 50px;
+        width: 50px;
+    }
+    .slider_event_content{
+        margin-top: 25px;
+        line-height: 18px;
+        font-family: 'gaurav';
+       margin-top: 10px;
+        padding: 0 10px;
+        font-size: 1em;
+    }
+    .slider_div {
+        margin-top: -25px;
+        width: 100%;
+    }
+    .slider_img{
+        height: 420px;
+        width: 450px;
+        padding: 0px 13px;
+    }
+
+    .asdsafsafd{
+        padding: 0px;
+    }
+    .slider_rightDiv{
+        background-color: #fff;
+        height: 420px;
+    
+        margin-left: -1.5%;
+        position: relative
+    }
+    .slider_thomso16tag{
+        font-size: 16px;
+        position: absolute;
+        top: 353px;
+        left: 10%;
+        color: black;
+        font-family: gaurav;
+    }
+    .slider_sponsor_img{
+        float: right;
+        min-height: 80px;
+        width: 25%;
+        margin-top: 10px;
+        position: absolute;
+        top:300px;
+        left: 70%;
+    }
+    .slider_leftArrow{
+        height: 45px;
+        width:30%;
+        margin-top: 150px;
+        margin-left: 70%;
+        text-align: center;
+        cursor: pointer
+    }
+    .slider_rightArrow{
+        height: 45px;
+        width:30%;
+        margin-top: 150px;
+        margin-right: 50%;
+        text-align: center;
+        cursor: pointer
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+   .slider_marginBoth{
+       margin:0
+   }
+   .slider_rightDiv{
+       margin:0;
+       padding: 40px;
+       width: 100%;
+   }
+   .slider_event_tag{
+       font-size: 10vw;
+       margin-top: 0
+   }
+   .slider_event_content{
+       font-size: 17px;
+       margin-top: 10px;
+       line-height: 20px
+   }
+   #left_arrow,
+   #right_arrow{
+       display: none;
+   }
+   .slider_img{
+       width: 100%;
+       padding: 0px;
+   }
+   .slider_up{
+       margin-top: 50px;
+   }
+   .pronites_tag{
+       display: block;
+       font-size: 25px;
+   }
+   .slider_rightDiv{
+        height: 100vh;
+    }
+    .slider_thomso16tag{
+        bottom: 25px;
+        top: inherit;
+    }
+    .slider_sponsor_img{
+        min-height: inherit;
+        bottom: 15px;
+        top: inherit;
+    }
+}
+
+
+
+
+.padding-float{
+    float: right;
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.padding-float:hover{
+    opacity:0.25;
+}
+
+.contact-us-img
+{
+    background: url('../../img/main/about_us.png');
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contact-us
+{
+    font-size: 2em;
+    text-align: center;
+    color: #0d0d0d;
+    letter-spacing: .06em;
+    margin: 0px 30px 0px 30px;
+}
+.no-margin-row-team{
+    margin:0px;
+}
+.my-padding-team{
+    padding-left: 50px;
+    padding-top: 2em;
+}
+.team-tab{
+    width: 14.2857%;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+}
+.team-tab:hover{
+    color:#000116;
+    background-color: white;
+}
+
+
+/*workshops */
+.workshop-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'gaurav';
+}
+.workshop-main-pay{
+    background: #707070;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 2px;
+    font-family: 'prashant';
+    transition: 0.1s;
+}
+.workshop-main-pay:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background: #403e3c;
+}
+
+/*profile*/
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    background: #5d5a5a;
+}
+.fileUpload input.upload-file {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.btn-img-submit{
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 8px;
+    padding: 5px;
+}
+
+
+
+/* team */
+.team-heading-text{
+    position: relative;
+}
+.team-heading-text:after{
+    content: ' ';
+    width: 20px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    right: 12px;
+}
+.team-data-text{
+    text-align: center;
+    font-size: 1em;
+    font-family: 'gaurav';
+}
+.team-data-text-a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.team-data-text-a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*** login error ***//*  error 404 css*/
+.error_tag{
+    font-size: 5vw;
+    color: #fff;
+    text-align: center;
+    margin-top:50px
+}
+.loginerror_tag{
+    font-size: 3.8vw;
+    color: #fff;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px
+}
+
+.oops{
+    font-size:2vw;
+    color: #fff;
+    text-align: center ;
+    margin-top: 20px;
+    font-family: 'gaurav';
+}
+
+.loginerrorbutton{
+    background-color: #B84518;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: 'Prashant';
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+
+/***** Venture ******/
+.venture-div{
+    color: #cacaca;;
+    padding: 50px;
+    padding-top: 0px;
+    border-radius: 4px;
+}
+.venture-div-m{
+    color: #cacaca;;
+    padding-top: 0px;
+    border-radius: 4px;
+}
+.speaker-name{
+    color: #fff;
+    transition: 0.1s;
+}
+.speaker-name:hover{
+    color: #737373;
+    text-decoration: none;
+}
+
+
+/***** faq *****/
+.faq{
+    color: #cacaca;;
+    padding: 50px;
+    padding-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    line-height: 30px;
+    font-size: 1.25em;
+    font-family: gaurav;
+    margin-bottom: 80px;
+}
+.faq-m{
+    color: #cacaca;
+    padding-top: 10px;
+    border-radius: 4px;
+    word-wrap: break-word;
+}

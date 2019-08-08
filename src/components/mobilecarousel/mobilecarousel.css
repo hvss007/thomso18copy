@@ -1,0 +1,127 @@
+  .simple-slider, .slider-container, .slider-slide {
+    height: 400px;
+    margin-top: 10%;
+  }
+  .simple-slider {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+  }
+  .simple-slider .slider-container {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    height: 140%;
+  }
+  .simple-slider .slider-container .slider-inner {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100%;
+  }
+  .simple-slider .slider-container .slider-inner .slider-slide {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .simple-slider .slider-previous, .simple-slider .slider-next {
+    position: absolute;
+    top: 67%;
+    transform: translateY(-50%);
+    bottom: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  .simple-slider .slider-previous {
+    left: -10px;
+  }
+  .simple-slider .slider-next {
+    right: -10px;
+  }
+  .simple-slider .slider-dots {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    right: 0;
+    text-align: center;
+  }
+  .simple-slider .slider-dots a {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .simple-slider .slider-dots a.active {
+    background-color: #333;
+  }
+.slider-slide:nth-child(1){
+    background-image: url("/img/main/whythomso/sunidhichauhan.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+.slider-slide:nth-child(2){
+    background-image: url("/img/main/whythomso/shaan.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+
+.slider-slide:nth-child(3){
+    background-image: url("/img/main/whythomso/Farhaan.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+
+.slider-slide:nth-child(4){
+    background-image: url("/img/main/whythomso/Nucleya.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+.slider-slide:nth-child(5){
+    background-image: url("/img/main/whythomso/sonunigam.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+.slider-slide:nth-child(6){
+  background: linear-gradient(to top, #2e5266, #6e8898);
+  border-radius: 2px;
+}
+.slider-slide-child-farhan{
+    top: 400px;
+    position: absolute;
+    z-index: 100;
+    left: calc(50% - 164px);
+}
+.slider-slide-child-see-more{
+  top: 44%;
+  position: absolute;
+  z-index: 100;
+  left: 12%;
+  font-size: 32px;
+  color: white;
+  font-family: Montserrat;
+}
+.slider-slide-child-farhan svg{
+    height: 100px;
+    width: 20rem;
+}

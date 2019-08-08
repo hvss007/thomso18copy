@@ -1,0 +1,137 @@
+.zonals-common-comp1
+{
+    display:flex;
+    flex-direction:column;
+    background:#24989a;
+    color:white;
+    width:80%;
+    align-items:center; 
+    height:60vh;
+    margin:auto;
+    justify-content:space-around;
+    border-radius:5px;
+    box-shadow:4px 4px 4px 4px #24989a;
+    font-family:Montserrat;
+}
+.zonals-common-comp1 > div
+{
+    opacity:0;
+}
+.zonal-common-comp1-heading >div
+{
+    font-weight:bolder;
+    font-size:20px;
+}
+.zonal-common-comp1-register
+{
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+.zonal-common-comp1-register >div
+{
+    width:15%;
+    z-index:200;
+}
+.zonal-common-comp1-register-child1
+{
+    display:flex;
+    justify-content:flex-start;
+}
+.zonal-common-comp1-register-child2
+{
+    display:flex;
+    justify-content:flex-end;
+}
+.zonal-comp1-button
+{
+    background: white;
+    padding: 10px 20px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-family:Montserrat;
+    transition: all 0.25s;
+}
+.zonal-comp1-button:hover
+{
+    background: #164851d4;
+    color: white;
+}
+.zonals-comp-dance-transform
+{
+    width: 63%;
+    height: 29vw;
+    position: absolute;
+    top: 70px;
+    right: 19%;
+}
+.zonals-comp-dance-transform > div
+{
+    opacity:1;
+    transition:opacity 3s;
+}
+.zonal-common-comp1-content
+{
+    width:80%;
+}
+@media only screen and (max-width:768px)
+{
+    .zonal-common-comp1-content
+    {
+        font-size:15px;
+        overflow-y:scroll;
+    }
+    .zonals-comp-dance-transform
+    {
+        width:80%;
+        height:55vh;
+        position:absolute;
+        top:3vh;
+        right:10%;
+    }
+    .zonals-comp-dance-transform
+    {
+        font-size:18px;   
+    }
+    .zonal-common-comp1-register >div
+    {
+        width:35%;
+    }
+    .zonal-comp1-button
+    {
+        padding: 3px 2px;
+        font-size:12px;
+    }
+    .zonals-comp-dance-transform > div
+    {
+        font-size:12px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1900px)
+{
+    .zonal-common-comp1-register
+    {
+        display:flex;
+        justify-content:space-around;
+        width:100%;
+    }
+}
+@media (min-width: 1900px) and (max-width: 2560px)
+{
+    .zonals-comp-dance-transform
+    {
+        top:26px;
+    }
+    .zonal-common-comp1-heading >div
+    {
+        font-weight:bolder;
+        font-size:35px;
+    }
+    .zonals-comp-dance-transform > div
+    {
+        font-size:19px;
+    }
+}
